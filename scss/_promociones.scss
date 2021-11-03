@@ -1,0 +1,70 @@
+body {
+    background-image: url("../img/back.jpg");
+
+    header {
+        width: 100%;
+
+
+        .contenedorLogo {
+            display: flex;
+            justify-content: center;
+
+            .logoNav {
+                width: auto;
+                height: 150px;
+            }
+        }
+    }
+
+    .imgBannerPromociones {
+        background-image: url("../img/promocionesBanner.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 300px;
+        padding: 10px 0 10 0;
+    }
+
+    .tituloLocal {
+        font-size: 50px;
+        line-height: 58px;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        margin: 90px 0;
+    }
+
+    .promocionesHelado {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        .cardPromocion {
+            width: auto;
+            height: auto;
+            margin: 20px;
+            padding: 20px;
+
+            .promocionImg {
+                width: 500px;
+                height: 400px;
+            }
+
+            .titlePromocion {
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+            .lineaPromocion {
+                width: 110px;
+                height: 3px;
+                font-weight: 50px;
+                background: #4e4e4e;
+            }
+        }
+    }
+
+
+}

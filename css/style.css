@@ -1,0 +1,558 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  margin: 5px 0px; }
+
+body {
+  width: 100%;
+  padding: 0 5px; }
+
+#btn-menu {
+  display: none; }
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid grey; }
+
+.menu li {
+  border-right: 1px solid grey; }
+
+header label:hover {
+  cursor: pointer; }
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: white;
+  justify-content: center; }
+
+.menu li:hover {
+  background: linear-gradient(90deg, #f4a261 0%, #ef8350 35%, #e76f51 100%); }
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  color: black; }
+
+.carouselHelado {
+  width: 440px; }
+
+.myCarousel {
+  width: 100%;
+  height: 600px; }
+
+.contenedorCarousel {
+  width: 100%;
+  height: 700px; }
+
+.carousel {
+  width: 100%;
+  height: 700px; }
+
+.carousel-inner {
+  width: 100%;
+  height: 700px; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+
+.carousel-item {
+  height: 32rem; }
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 80%;
+  height: 40rem; }
+
+.imgCarousel {
+  width: 100%;
+  height: 800px; }
+
+.featurette-divider {
+  margin: 5rem 0; }
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1; }
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  .featurette-heading {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem; } }
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  .featurette-heading {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem; } }
+
+.pedidosYaContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: pedidos;
+  animation-duration: 6s;
+  animation-iteration-count: unset;
+  background-color: white;
+  padding: 0 10px 0 10px; }
+  .pedidosYaContainer .contenedorPedidos {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    border: 1px solid black; }
+    .pedidosYaContainer .contenedorPedidos .titleAbsoluteIndex {
+      font-size: 44px;
+      letter-spacing: 1px;
+      position: absolute;
+      padding: 0 15px 0 15px;
+      top: 2736px;
+      background-color: white; }
+    .pedidosYaContainer .contenedorPedidos .titleAbsoluteSabores {
+      font-size: 44px;
+      letter-spacing: 1px;
+      position: absolute;
+      padding: 0 15px 0 15px;
+      top: 3274px;
+      background-color: white; }
+    .pedidosYaContainer .contenedorPedidos .titleAbsolutePromociones {
+      font-size: 44px;
+      letter-spacing: 1px;
+      position: absolute;
+      padding: 0 15px 0 15px;
+      top: 1381px;
+      background-color: white; }
+    .pedidosYaContainer .contenedorPedidos .titleAbsoluteServicios {
+      font-size: 44px;
+      letter-spacing: 1px;
+      position: absolute;
+      padding: 0 15px 0 15px;
+      top: 1381px;
+      background-color: white; }
+    .pedidosYaContainer .contenedorPedidos .logoPedidos {
+      width: 70px;
+      height: 70px;
+      border-radius: 46px; }
+
+body header {
+  width: 100%; }
+
+body .historiaHome {
+  width: 100%;
+  height: auto;
+  padding: 90px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation-name: identifier;
+  animation-duration: 6s;
+  animation-iteration-count: unset; }
+
+@keyframes identifier {
+  0% {
+    opacity: 0.1; }
+  50% {
+    opacity: 0.9; }
+  100% {
+    opacity: 1; } }
+  body .historiaHome .izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px; }
+    body .historiaHome .izq .imgHome {
+      width: 280px;
+      height: auto; }
+    body .historiaHome .izq .parrafoHistoria {
+      width: 400px;
+      height: 224px;
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 1px;
+      margin: 8px 50px 0 50px; }
+    body .historiaHome .izq .tituloSpan {
+      font-size: 47px;
+      letter-spacing: 2px;
+      font-weight: 600; }
+  body .historiaHome .der {
+    width: 590px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body .historiaHome .der .foto02 {
+      width: 272px;
+      height: auto;
+      position: absolute;
+      left: 0px;
+      top: 75px; }
+    body .historiaHome .der .foto01 {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      left: 0px;
+      top: 295px; }
+    body .historiaHome .der .foto03 {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      left: 248px;
+      top: 151px; }
+
+body .tituloLocal {
+  font-size: 50px;
+  line-height: 58px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 90px 0; }
+
+body .locales {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: cardLocal;
+  animation-duration: 4s;
+  animation-iteration-count: ease; }
+
+@keyframes cardLocal {
+  0% {
+    margin-left: 0px; }
+  50% {
+    margin-left: 20px; }
+  100% {
+    margin-left: 0px; } }
+  body .locales .cardLocal {
+    padding: 20px 0;
+    width: 500px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: inline-block;
+    margin: 25px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px #ddd;
+    background: #fff; }
+    body .locales .cardLocal .localImg {
+      width: 450px;
+      height: 542px;
+      border-radius: 11px; }
+    body .locales .cardLocal .arriba .textoIndex {
+      font-size: 26px;
+      padding-top: 20px; }
+    body .locales .cardLocal .arriba .spanText {
+      font-size: 16px; }
+    body .locales .cardLocal .linea {
+      width: 180px;
+      height: 3px;
+      font-weight: 50px;
+      background: #4e4e4e;
+      margin-left: 150px; }
+    body .locales .cardLocal .iconRedes {
+      width: 40px;
+      padding: 5px; }
+
+body header {
+  width: 100%; }
+  body header .contenedorLogo {
+    display: flex;
+    justify-content: center; }
+    body header .contenedorLogo .logoNav {
+      width: auto;
+      height: 150px; }
+
+body .imgBannerSabores {
+  background-image: url("../img/saboresBanner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  padding: 10px 0 10 0; }
+
+body .fondoSabores {
+  background-image: url("../img/back.jpg");
+  width: 100%;
+  height: auto; }
+  body .fondoSabores .titleListaSabores {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    animation-name: titleListaSabores;
+    animation-duration: 6s;
+    animation-iteration-count: unset; }
+
+@keyframes titleListaSabores {
+  0% {
+    opacity: 0.2; }
+  50% {
+    opacity: 0.9; }
+  100% {
+    opacity: 1; } }
+  body .fondoSabores #animationSaboresHeladoCard01 {
+    animation-name: animationSaboresHeladoCard01;
+    animation-duration: 3s;
+    animation-iteration-count: ease; }
+
+@keyframes animationSaboresHeladoCard01 {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.8; }
+  100% {
+    opacity: 1; } }
+  body .fondoSabores #animationSaboresHeladoCard02 {
+    animation-name: animationSaboresHeladoCard02;
+    animation-duration: 6s;
+    animation-iteration-count: ease; }
+
+@keyframes animationSaboresHeladoCard02 {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.8; }
+  100% {
+    opacity: 1; } }
+  body .fondoSabores #animationSaboresHeladoCard03 {
+    animation-name: animationSaboresHeladoCard03;
+    animation-duration: 9s;
+    animation-iteration-count: ease; }
+
+@keyframes animationSaboresHeladoCard03 {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.8; }
+  100% {
+    opacity: 1; } }
+  body .fondoSabores .saboresHeladosCard {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding-bottom: 60px; }
+    body .fondoSabores .saboresHeladosCard .saboresFoto .imgHelado {
+      width: 440px;
+      height: 440px;
+      margin-top: 140px; }
+    body .fondoSabores .saboresHeladosCard .listaSabores {
+      width: 700px;
+      margin: 0px 40px;
+      margin-top: 80px;
+      column-count: 2; }
+
+body .pedidosYaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  body .pedidosYaContainer .pedidosImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px; }
+
+body {
+  background-image: url("../img/back.jpg"); }
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerPromociones {
+    background-image: url("../img/promocionesBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    padding: 10px 0 10 0; }
+  body .tituloLocal {
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin: 90px 0; }
+  body .promocionesHelado {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    body .promocionesHelado .cardPromocion {
+      width: auto;
+      height: auto;
+      margin: 20px;
+      padding: 20px; }
+      body .promocionesHelado .cardPromocion .promocionImg {
+        width: 500px;
+        height: 400px; }
+      body .promocionesHelado .cardPromocion .titlePromocion {
+        font-size: 20px;
+        line-height: 30px; }
+      body .promocionesHelado .cardPromocion .lineaPromocion {
+        width: 110px;
+        height: 3px;
+        font-weight: 50px;
+        background: #4e4e4e; }
+
+body {
+  background-image: url("../img/back.jpg"); }
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerNosotros {
+    background-image: url("../img/bannerHelado.jpg");
+    background-size: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    padding: 10px 0 10 0; }
+  body .cardNosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    body .cardNosotros .cardNosotrosImg .imgNosotros {
+      width: 600px;
+      overflow: hidden;
+      margin: 20px;
+      padding: 20px; }
+    body .cardNosotros .contenedorParrafo {
+      width: 574px;
+      height: 350px;
+      padding: 20px;
+      margin: 20px;
+      position: relative;
+      top: 70px; }
+
+.contenedorGaleria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: center;
+  margin: 50px 10px;
+  padding: 10px;
+  border: 1px 0px 0px 0px solid gray; }
+  .contenedorGaleria .galeria {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%; }
+    .contenedorGaleria .galeria .column {
+      flex: 5%;
+      padding: 5px; }
+      .contenedorGaleria .galeria .column .imgGaleria {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        width: 100%;
+        transition: all .3s ease-in-out; }
+      .contenedorGaleria .galeria .column .imgGaleria:hover {
+        transform: scale(0.9);
+        transform-origin: center center; }
+  @media (max-width: 800px) {
+    .contenedorGaleria .column {
+      flex: 50%; } }
+  @media (max-width: 600px) {
+    .contenedorGaleria .column {
+      flex: 100%; } }
+
+body {
+  background-image: url("../img/back.jpg"); }
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerServicios {
+    background-image: url("../img/serviciosBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    padding: 10px 0 10 0; }
+  body .formularioCentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    padding: 0 50px 100px 0; }
+    body .formularioCentro .formulario {
+      width: 400px;
+      height: 600px;
+      padding: 20px;
+      text-align: center;
+      float: center; }
+      body .formularioCentro .formulario .selectForm {
+        width: 400px;
+        margin: 10px; }
+      body .formularioCentro .formulario .input {
+        width: 400px;
+        margin: 10px; }
+      body .formularioCentro .formulario .textarea {
+        width: 400px;
+        margin: 10px; }
+      body .formularioCentro .formulario .label {
+        font-size: 16px; }
+    body .formularioCentro .contenedorParrafo {
+      width: 474px;
+      height: auto;
+      padding: 50px;
+      margin: 20px;
+      position: relative;
+      top: 70px; }

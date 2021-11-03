@@ -1,0 +1,65 @@
+.pedidosYaContainer {
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: pedidos;
+    animation-duration: 6s;
+    animation-iteration-count: unset;
+    background-color: white;
+    padding:0 10px 0 10px;
+
+    .contenedorPedidos {
+        background-color: white;
+        width: 600px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: center;
+        border: 1px solid black;
+
+        .titleAbsoluteIndex {
+            font-size: 44px;
+            letter-spacing: 1px;
+            position: absolute;
+            padding: 0 15px 0 15px;
+            top: 2736px;
+            background-color:white;
+        }
+        .titleAbsoluteSabores {
+            font-size: 44px;
+            letter-spacing: 1px;
+            position: absolute;
+            padding: 0 15px 0 15px;
+            top: 3274px;
+            background-color:white;
+        }
+        .titleAbsolutePromociones {
+            font-size: 44px;
+            letter-spacing: 1px;
+            position: absolute;
+            padding: 0 15px 0 15px;
+            top: 1381px;
+            background-color:white;
+        }
+        
+        .titleAbsoluteServicios {
+            font-size: 44px;
+            letter-spacing: 1px;
+            position: absolute;
+            padding: 0 15px 0 15px;
+            top: 1381px;
+            background-color:white;
+        }
+
+        .logoPedidos {
+            width: 70px;
+            height: 70px;
+            border-radius: 46px;
+        }
+    }
+
+}
