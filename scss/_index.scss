@@ -14,29 +14,7 @@ body {
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        animation-name: identifier;
-        animation-duration: 6s;
-        animation-iteration-count: unset;
-
-
-
-        @keyframes identifier {
-            0% {
-
-                opacity: 0.1;
-            }
-
-            50% {
-
-                opacity: 0.9;
-            }
-
-            100% {
-
-                opacity: 1;
-            }
-        }
-
+       
 
         .izq {
             display: flex;
@@ -76,6 +54,28 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            animation-name: foto02;
+                animation-duration: 6s;
+                animation-iteration-count: unset;
+        
+        
+        
+                @keyframes foto02 {
+                    0% {
+        
+                        opacity: 0.4;
+                    }
+        
+                    50% {
+        
+                        opacity: 0.8;
+                    }
+        
+                    100% {
+        
+                        opacity: 1;
+                    }
+                }
 
             .foto02 {
                 width: 272px;
@@ -83,7 +83,7 @@ body {
                 position: absolute;
                 left: 0px;
                 top: 75px;
-
+        
             }
 
             .foto01 {
@@ -92,6 +92,7 @@ body {
                 position: absolute;
                 left: 0px;
                 top: 295px;
+
             }
 
             .foto03 {
@@ -100,6 +101,7 @@ body {
                 position: absolute;
                 left: 248px;
                 top: 151px;
+                
             }
         }
 
@@ -126,16 +128,18 @@ body {
 
         @keyframes cardLocal {
             0% {
-                margin-left: 0px;
 
+                opacity: 0.2;
             }
 
-            50%{
-                margin-left: 20px;
+            50% {
+
+                opacity: 0.9;
             }
-            
-            100%{
-                margin-left: 0px;
+
+            100% {
+
+                opacity: 1;
             }
         }
 

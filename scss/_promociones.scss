@@ -48,10 +48,19 @@ body {
             padding: 20px;
 
             .promocionImg {
-                width: 500px;
-                height: 400px;
-            }
+                width: 550px;
+                height: 550px;
+                transition: all .3s ease-in-out;
 
+                
+            }
+            
+            
+            .promocionImg:hover {
+
+                transform: scale(0.9);
+                transform-origin: center center;
+            }
             .titlePromocion {
                 font-size: 20px;
                 line-height: 30px;

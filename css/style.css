@@ -138,7 +138,18 @@ header label:hover {
     align-items: center;
     justify-content: center;
     flex-direction: center;
-    border: 1px solid black; }
+    border: 1px solid black;
+    animation-name: pedidosanimation;
+    animation-duration: 4s;
+    animation-iteration-count: easeOutQuint; }
+
+@keyframes pedidosanimation {
+  0% {
+    margin-bottom: 0px; }
+  50% {
+    margin-bottom: 50px; }
+  100% {
+    margin-bottom: 0px; } }
     .pedidosYaContainer .contenedorPedidos .titleAbsoluteIndex {
       font-size: 44px;
       letter-spacing: 1px;
@@ -151,14 +162,14 @@ header label:hover {
       letter-spacing: 1px;
       position: absolute;
       padding: 0 15px 0 15px;
-      top: 3274px;
+      top: 3339px;
       background-color: white; }
     .pedidosYaContainer .contenedorPedidos .titleAbsolutePromociones {
       font-size: 44px;
       letter-spacing: 1px;
       position: absolute;
       padding: 0 15px 0 15px;
-      top: 1381px;
+      top: 1530px;
       background-color: white; }
     .pedidosYaContainer .contenedorPedidos .titleAbsoluteServicios {
       font-size: 44px;
@@ -185,18 +196,7 @@ body .historiaHome {
   background-image: url("../img/fondo.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  animation-name: identifier;
-  animation-duration: 6s;
-  animation-iteration-count: unset; }
-
-@keyframes identifier {
-  0% {
-    opacity: 0.1; }
-  50% {
-    opacity: 0.9; }
-  100% {
-    opacity: 1; } }
+  background-attachment: fixed; }
   body .historiaHome .izq {
     display: flex;
     flex-direction: column;
@@ -223,7 +223,18 @@ body .historiaHome {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    animation-name: foto02;
+    animation-duration: 6s;
+    animation-iteration-count: unset; }
+
+@keyframes foto02 {
+  0% {
+    opacity: 0.4; }
+  50% {
+    opacity: 0.8; }
+  100% {
+    opacity: 1; } }
     body .historiaHome .der .foto02 {
       width: 272px;
       height: auto;
@@ -262,11 +273,11 @@ body .locales {
 
 @keyframes cardLocal {
   0% {
-    margin-left: 0px; }
+    opacity: 0.2; }
   50% {
-    margin-left: 20px; }
+    opacity: 0.9; }
   100% {
-    margin-left: 0px; } }
+    opacity: 1; } }
   body .locales .cardLocal {
     padding: 20px 0;
     width: 500px;
@@ -376,11 +387,12 @@ body .fondoSabores {
     margin-bottom: 80px;
     padding-bottom: 60px; }
     body .fondoSabores .saboresHeladosCard .saboresFoto .imgHelado {
-      width: 440px;
-      height: 440px;
+      width: 540px;
+      height: 540px;
       margin-top: 140px; }
     body .fondoSabores .saboresHeladosCard .listaSabores {
-      width: 700px;
+      font-size: 24px;
+      width: 900px;
       margin: 0px 40px;
       margin-top: 80px;
       column-count: 2; }
@@ -430,8 +442,12 @@ body {
       margin: 20px;
       padding: 20px; }
       body .promocionesHelado .cardPromocion .promocionImg {
-        width: 500px;
-        height: 400px; }
+        width: 550px;
+        height: 550px;
+        transition: all .3s ease-in-out; }
+      body .promocionesHelado .cardPromocion .promocionImg:hover {
+        transform: scale(0.9);
+        transform-origin: center center; }
       body .promocionesHelado .cardPromocion .titlePromocion {
         font-size: 20px;
         line-height: 30px; }

@@ -9,7 +9,8 @@
     animation-duration: 6s;
     animation-iteration-count: unset;
     background-color: white;
-    padding:0 10px 0 10px;
+    padding: 0 10px 0 10px;
+
 
     .contenedorPedidos {
         background-color: white;
@@ -20,6 +21,25 @@
         justify-content: center;
         flex-direction: center;
         border: 1px solid black;
+        animation-name: pedidosanimation;
+        animation-duration: 4s;
+        animation-iteration-count: easeOutQuint;
+
+
+        @keyframes pedidosanimation {
+            0% {
+                margin-bottom: 0px;
+
+            }
+
+            50% {
+                margin-bottom: 50px;
+            }
+
+            100% {
+                margin-bottom: 0px;
+            }
+        }
 
         .titleAbsoluteIndex {
             font-size: 44px;
@@ -27,32 +47,34 @@
             position: absolute;
             padding: 0 15px 0 15px;
             top: 2736px;
-            background-color:white;
+            background-color: white;
         }
+
         .titleAbsoluteSabores {
             font-size: 44px;
             letter-spacing: 1px;
             position: absolute;
             padding: 0 15px 0 15px;
-            top: 3274px;
-            background-color:white;
+            top: 3339px;
+            background-color: white;
         }
+
         .titleAbsolutePromociones {
             font-size: 44px;
             letter-spacing: 1px;
             position: absolute;
             padding: 0 15px 0 15px;
-            top: 1381px;
-            background-color:white;
+            top: 1530px;
+            background-color: white;
         }
-        
+
         .titleAbsoluteServicios {
             font-size: 44px;
             letter-spacing: 1px;
             position: absolute;
             padding: 0 15px 0 15px;
             top: 1381px;
-            background-color:white;
+            background-color: white;
         }
 
         .logoPedidos {
