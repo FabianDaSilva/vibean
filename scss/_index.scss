@@ -38,7 +38,7 @@ body {
             }
 
             .tituloSpan {
-                font-size: 47px;
+                font-size: $tituloPrimario;
                 letter-spacing: 2px;
                 font-weight: 600;
 
@@ -108,7 +108,7 @@ body {
     }
 
     .tituloLocal {
-        font-size: 50px;
+        font-size: $tituloSecundario;
         line-height: 58px;
         text-align: center;
         font-weight: bold;

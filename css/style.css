@@ -17,6 +17,7 @@ body {
   width: 100%;
   padding: 0 5px; }
 
+/* Colores y titulos */
 #btn-menu {
   display: none; }
 
@@ -40,7 +41,7 @@ header label:hover {
   justify-content: center; }
 
 .menu li:hover {
-  background: linear-gradient(90deg, #f4a261 0%, #ef8350 35%, #e76f51 100%); }
+  background: #f4a261; }
 
 .menu li a {
   display: block;
@@ -255,7 +256,7 @@ body .historiaHome {
       top: 151px; }
 
 body .tituloLocal {
-  font-size: 50px;
+  font-size: 52px;
   line-height: 58px;
   text-align: center;
   font-weight: bold;

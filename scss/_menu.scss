@@ -21,12 +21,7 @@ header label:hover {
   justify-content: center;
 }
 .menu li:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(244, 162, 97, 1) 0%,
-    rgba(239, 131, 80, 1) 35%,
-    rgba(231, 111, 81, 1) 100%
-  );
+  background: $color;
 }
 .menu li a {
   display: block;
