@@ -1,12 +1,3 @@
-.carouselHelado {
-  width: 440px;
-}
-
-.myCarousel {
-  width: 100%;
-  height: 600px;
-}
-
 .contenedorCarousel{
   width: 100%;
   height: 700px;
@@ -20,13 +11,9 @@
   width: 100%;
   height: 700px;
 }
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-.carousel-item {
-  height: 32rem;
+.carousel-inner>img{
+  width: 700px;
+  height:400px;
 }
 
 .carousel-item>img {
@@ -34,12 +21,14 @@
   top: 0;
   right: 0;
   min-width: 80%;
-  height: 40rem;
+  height: 700px;
+  padding: 5px;
+
 }
 
 .imgCarousel {
   width: 100%;
-  height: 800px;
+  height: auto;
 }
 
 .featurette-divider {
