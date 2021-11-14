@@ -207,68 +207,7 @@
     }
 }
 
-
-@media (max-width: 991px) {
-    //menu
-
-    header label {
-        display: block;
-    }
-
-    .menu {
-        position: absolute;
-        width: 70%;
-        margin-left: -70%;
-    }
-
-    .menu ul {
-        flex-direction: column;
-    }
-
-    #btn-menu:checked~.menu {
-        margin: 0;
-        z-index: 1;
-    }
-
-    //Nuestra historia
-    .historiaHome {
-        width: 100%;
-        height: auto;
-        padding: 90 px 0 px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: url(../img/fondo.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        flex-direction: column;
-    }
-
-    //Locales
-    .locales {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        animation-name: cardLocal;
-        animation-duration: 4s;
-        animation-iteration-count: ease;
-        flex-direction: column;
-    }
-
-    //Pedidos ya
-    .pedidosYaContainer .contenedorPedidos .titleAbsoluteIndex {
-        font-size: 44px;
-        letter-spacing: 1px;
-        position: absolute;
-        padding: 0 15 px 0 15 px;
-        top: 4054px;
-        background-color: white;
-    }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
 
     header {
         width: auto;
@@ -453,6 +392,483 @@
                     width: 175px;
                     height: 3px;
                     margin-left: 120px;
+                    background: #4e4e4e;
+                }
+            }
+        }
+
+        .pedidosYaContainer {
+            .contenedorPedidos {
+                .titleAbsoluteIndex {
+                    top: 2414px;
+                    font-size: 38px;
+                    letter-spacing: 1px;
+                    position: absolute;
+                    padding: 0 15px 0 15px;
+                    background-color: white;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 991px) {
+    //menu
+
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        width: 70%;
+        margin-left: -70%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    #btn-menu:checked~.menu {
+        margin: 0;
+        z-index: 1;
+    }
+
+    //Nuestra historia
+    .historiaHome {
+        width: 100%;
+        height: auto;
+        padding: 90 px 0 px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../img/fondo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        flex-direction: column;
+    }
+
+    //Locales
+    .locales {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: cardLocal;
+        animation-duration: 4s;
+        animation-iteration-count: ease;
+        flex-direction: column;
+    }
+
+    //Pedidos ya
+    .pedidosYaContainer .contenedorPedidos .titleAbsoluteIndex {
+        font-size: 44px;
+        letter-spacing: 1px;
+        position: absolute;
+        padding: 0 15 px 0 15 px;
+        top: 4054px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        width: auto;
+        height: 130px;
+    }
+
+    header label {
+        display: block;
+    }
+
+    //Logo
+    body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 100px;
+    }
+
+    //carousel
+    .carousel-item>img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 10%;
+        height: 422px;
+        padding: 5px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: 422px;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 422px;
+    }
+
+    .contenedorCarousel {
+        width: 100%;
+        height: 422px;
+    }
+
+
+
+
+    body {
+        background-image: url(../img/back.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+        .menu {
+            position: absolute;
+            width: 70%;
+            margin-left: -70%;
+
+            ul {
+                flex-direction: column;
+            }
+
+        }
+
+        #btn-menu:checked~.menu {
+            margin: 0;
+            z-index: 1;
+        }
+
+
+        .historiaHome {
+            margin: 0 auto;
+            padding-top: 0;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            background-image: url(../img/fondo.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            .izq {
+                width: 300px;
+                height: 310px;
+
+                .imgHome {
+                    width: 187px;
+                    height: auto;
+
+                }
+
+                .tituloSpan {
+                    font-size: 28px;
+                    letter-spacing: 2px;
+                    font-weight: 600;
+                }
+
+                .parrafoHistoria {
+                    width: 300px;
+                    height: 150px;
+                    text-align: center;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    margin: 8 px 50 px 0 50 px;
+                }
+            }
+
+            .der {
+                width: 300px;
+                height: 300px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                animation-name: foto02;
+                animation-duration: 6s;
+                animation-iteration-count: unset;
+
+                .foto03 {
+                    width: 150px;
+                    height: auto;
+                    position: absolute;
+                    left: 150px;
+                    top: 158px;
+                }
+
+                .foto02 {
+                    width: 149px;
+                    height: auto;
+                    position: absolute;
+                    left: 20px;
+                    top: 72px;
+                }
+
+                .foto01 {
+                    width: 143px;
+                    height: auto;
+                    position: absolute;
+                    left: 20px;
+                    top: 193px;
+                }
+            }
+        }
+
+        .tituloLocal {
+            font-size: 28px;
+            line-height: 58px;
+            text-align: center;
+            font-weight: bold;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .locales {
+            width: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation-name: cardLocal;
+            animation-duration: 4s;
+            animation-iteration-count: ease;
+            flex-direction: row;
+
+            .cardLocal {
+                padding: 20px 0;
+                width: 300px;
+                height: 565px;
+                margin: 25px 5px;
+                text-align: center;
+                display: inline-block;
+                border-radius: 10 px;
+                box-shadow: 2px 1px 10px #ddd;
+                background: #fff;
+
+                .localImg {
+                    width: 240px;
+                    height: 300px;
+                }
+
+                .linea {
+                    width: 127px;
+                    height: 3 px;
+                    font-weight: 50px;
+                    background: #4e4e4e;
+                    margin-left: 79px;
+                }
+            }
+        }
+
+        .pedidosYaContainer {
+            width: 586px;
+            height: 200px;
+
+            .contenedorPedidos {
+                .titleAbsoluteIndex {
+                    top: 1623px;
+                    font-size: 24px;
+                    letter-spacing: 1px;
+                    position: absolute;
+                    padding: 0 15px 0 15px;
+                    background-color: white;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    header {
+        width: auto;
+        height: 200px;
+    }
+
+    header label {
+        display: block;
+    }
+
+    //Logo
+    body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px;
+    }
+
+    //carousel
+    .carousel-item>img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 10%;
+        height: 444px;
+        padding: 5px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: 444px;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 444px;
+    }
+
+    .contenedorCarousel {
+        width: 100%;
+        height: 444px;
+    }
+
+
+
+
+    body {
+        background-image: url(../img/back.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+        .menu {
+            position: absolute;
+            width: 70%;
+            margin-left: -70%;
+
+            ul {
+                flex-direction: column;
+            }
+
+        }
+
+        #btn-menu:checked~.menu {
+            margin: 0;
+            z-index: 1;
+        }
+
+
+        .historiaHome {
+            width: 100%;
+            height: 667px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            background-image: url(../img/fondo.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            .izq {
+                width: 400px;
+                height: 430px;
+
+                .imgHome {
+                    width: 260px;
+                    height: auto;
+
+                }
+
+                .tituloSpan {
+                    font-size: 38px;
+                    letter-spacing: 2px;
+                    font-weight: 600;
+                }
+
+                .parrafoHistoria {
+                    width: 350px;
+                    height: 200px;
+                    text-align: center;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    margin: 8 px 50 px 0 50 px;
+                }
+            }
+
+            .der {
+                width: 400px;
+                height: 400px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                animation-name: foto02;
+                animation-duration: 6s;
+                animation-iteration-count: unset;
+
+                .foto03 {
+                    width: 193px;
+                    height: auto;
+                    position: absolute;
+                    left: 108px;
+                    top: 136px;
+                }
+
+                .foto02 {
+                    width: 188px;
+                    height: auto;
+                    position: absolute;
+                    left: 0px;
+                    top: 48px;
+                }
+
+                .foto01 {
+                    width: 188px;
+                    height: auto;
+                    position: absolute;
+                    left: 0px;
+                    top: 200px;
+                }
+            }
+        }
+
+        .tituloLocal {
+            font-size: 38px;
+            line-height: 58px;
+            text-align: center;
+            font-weight: bold;
+            width: 100%;
+            padding: 0;
+            margin: 25px 0 10px 0;
+        }
+
+
+        .locales {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation-name: cardLocal;
+            animation-duration: 4s;
+            animation-iteration-count: ease;
+            flex-direction: row;
+
+            .cardLocal {
+                padding: 20px 0;
+                width: 350px;
+                margin-bottom: 25px;
+                text-align: center;
+                display: inline-block;
+                margin: 10;
+                border-radius: 10 px;
+                box-shadow: 2px 1px 10px #ddd;
+                background: #fff;
+
+                .localImg {
+                    width: 320px;
+                }
+
+                .linea {
+                    width: 175px;
+                    height: 3px;
+                    margin-left: 90px;
                     background: #4e4e4e;
                 }
             }
@@ -739,7 +1155,7 @@
                     height: auto;
                     position: absolute;
                     left: 49px;
-            
+
                 }
 
                 .foto01 {
