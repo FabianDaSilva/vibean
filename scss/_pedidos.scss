@@ -21,26 +21,7 @@
         justify-content: center;
         flex-direction: center;
         border: 1px solid black;
-        animation-name: pedidosanimation;
-        animation-duration: 4s;
-        animation-iteration-count: easeOutQuint;
-
-
-        @keyframes pedidosanimation {
-            0% {
-                margin-bottom: 0px;
-
-            }
-
-            50% {
-                margin-bottom: 50px;
-            }
-
-            100% {
-                margin-bottom: 0px;
-            }
-        }
-
+        
         .titleAbsoluteIndex {
             font-size: $tituloPedidos;
             letter-spacing: 1px;
