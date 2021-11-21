@@ -21,22 +21,45 @@
 <body>
     <!-- Menu -->
     <header>
-        <div class="contenedorLogo">
-            <img src="./img/logo.png" alt="" class="logoNav">
-        </div>
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu">
-            <img src="./img/icono-menu.png" alt="">
-        </label>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <img src="./img/logoVibeanNav.png" class="d-inline-block align-text-center navbar-image logoNavBar"></a>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="./index.html">Inicio</li></a>
-                <li><a href="./sabores.html">Sabores</a> </li>
-                <li><a href="#">Promociones</li></a>
-                <li><a href="./nosotros.html">Nosotros</li></a>
-                <li><a href="./servicios.html">Servicios</li></a>
-            </ul>
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon  d-flex justify-content-start"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header bg-dark">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body bg-dark" style="font-size: 19px;">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sabores.html">Sabores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Promociones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./servicios.html">Servicios</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -44,7 +67,7 @@
 
     <!-- Inicio de promociones -->
 
-    <h1 class="tituloLocal">Nuestras promociones</h1>
+    <h1 class="tituloLocalPromo">Nuestras promociones</h1>
     <section class="promocionesHelado">
         <div class="cardPromocion">
             <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/heladeria-vibean-menu?p=28939218&menuSection=widget_recommended_products"><img src="./img/promocionHelados.jpg" alt="" class="promocionImg"></a>

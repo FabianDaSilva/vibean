@@ -21,22 +21,45 @@
 <body>
     <!-- Menu -->
     <header>
-        <div class="contenedorLogo">
-            <img src="./img/logo.png" alt="" class="logoNav">
-        </div>
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu">
-            <img src="./img/icono-menu.png" alt="">
-        </label>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <img src="./img/logoVibeanNav.png" class="d-inline-block align-text-center navbar-image logoNavBar"></a>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="./index.html">Inicio</li></a>
-                <li><a href="./sabores.html">Sabores</a> </li>
-                <li><a href="./promociones.html">Promociones</li></a>
-                <li><a href="./nosotros.html">Nosotros</li></a>
-                <li><a href="#">Servicios</li></a>
-            </ul>
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon  d-flex justify-content-start"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header bg-dark">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body bg-dark" style="font-size: 19px;">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sabores.html">Sabores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./promociones.html">Promociones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Servicios</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <div class="imgBannerServicios"></div>

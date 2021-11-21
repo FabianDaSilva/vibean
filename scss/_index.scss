@@ -1,12 +1,17 @@
 body {
     header {
         width: 100%;
+
+        .logoNavBar {
+            width: 70px;
+            margin: 2px 30px
+        }
     }
 
     .historiaHome {
         width: 100%;
         height: auto;
-        padding: 90px 0px;
+        padding: 45px 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -14,14 +19,15 @@ body {
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-       
+
 
         .izq {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 530px;
+            height: 670px;
+            margin-right: 50px;
 
             .imgHome {
                 width: 280px;
@@ -48,42 +54,20 @@ body {
         }
 
         .der {
-            width: 590px;
-            height: 500px;
+            width: 400px;
+            height: 670px;
             position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
-            animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-        
-        
-        
-                @keyframes foto02 {
-                    0% {
-        
-                        opacity: 0.4;
-                    }
-        
-                    50% {
-        
-                        opacity: 0.8;
-                    }
-        
-                    100% {
-        
-                        opacity: 1;
-                    }
-                }
-
+            
             .foto02 {
                 width: 272px;
                 height: auto;
                 position: absolute;
                 left: 0px;
                 top: 75px;
-        
+
             }
 
             .foto01 {
@@ -101,19 +85,19 @@ body {
                 position: absolute;
                 left: 248px;
                 top: 151px;
-                
+
             }
         }
 
     }
 
-    .tituloLocal {
+    .tituloLocalIndex {
         font-size: $tituloSecundario;
         line-height: 58px;
         text-align: center;
         font-weight: bold;
-        width: 100%;
-        margin: 90px 0;
+        width: 100%;     
+        margin: 90px  0 50px 0;
     }
 
     .locales {
@@ -121,28 +105,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        animation-name: cardLocal;
-        animation-duration: 4s;
-        animation-iteration-count: ease;
-
-
-        @keyframes cardLocal {
-            0% {
-
-                opacity: 0.2;
-            }
-
-            50% {
-
-                opacity: 0.9;
-            }
-
-            100% {
-
-                opacity: 1;
-            }
-        }
-
+       
         .cardLocal {
             padding: 20px 0;
             width: 500px;
@@ -153,7 +116,7 @@ body {
             border-radius: 10px;
             box-shadow: 2px 1px 10px #ddd;
             background: #fff;
-            
+
 
 
             .localImg {
@@ -180,7 +143,7 @@ body {
                 font-weight: 50px;
                 background: #4e4e4e;
                 margin-left: 150px;
-                
+
             }
 
             .iconRedes {
