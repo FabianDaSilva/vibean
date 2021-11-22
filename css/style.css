@@ -258,54 +258,7 @@ body .fondoSabores {
   body .fondoSabores .titleListaSabores {
     font-size: 60px;
     text-align: center;
-    padding-top: 20px;
-    animation-name: titleListaSabores;
-    animation-duration: 6s;
-    animation-iteration-count: unset; }
-
-@keyframes titleListaSabores {
-  0% {
-    opacity: 0.2; }
-  50% {
-    opacity: 0.9; }
-  100% {
-    opacity: 1; } }
-  body .fondoSabores #animationSaboresHeladoCard01 {
-    animation-name: animationSaboresHeladoCard01;
-    animation-duration: 3s;
-    animation-iteration-count: ease; }
-
-@keyframes animationSaboresHeladoCard01 {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0.8; }
-  100% {
-    opacity: 1; } }
-  body .fondoSabores #animationSaboresHeladoCard02 {
-    animation-name: animationSaboresHeladoCard02;
-    animation-duration: 6s;
-    animation-iteration-count: ease; }
-
-@keyframes animationSaboresHeladoCard02 {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0.8; }
-  100% {
-    opacity: 1; } }
-  body .fondoSabores #animationSaboresHeladoCard03 {
-    animation-name: animationSaboresHeladoCard03;
-    animation-duration: 9s;
-    animation-iteration-count: ease; }
-
-@keyframes animationSaboresHeladoCard03 {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0.8; }
-  100% {
-    opacity: 1; } }
+    padding-top: 20px; }
   body .fondoSabores .saboresHeladosCard {
     display: inline-block;
     display: flex;
@@ -324,14 +277,48 @@ body .fondoSabores {
       margin-top: 80px;
       column-count: 2; }
 
-body .pedidosYaContainer {
+body .pedidos {
+  width: 100%;
+  height: 600px;
   display: flex;
+  justify-content: center;
+  flex-direction: center;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center; }
-  body .pedidosYaContainer .pedidosImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 200px; }
+  margin: 50px 0 50px;
+  background-image: url("/img/saboresBanner.jpg");
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: cover; }
+  body .pedidos .textoPedidos {
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px; }
+    body .pedidos .textoPedidos .trasparente {
+      color: transparent;
+      -webkit-text-stroke: 1px white; }
+    body .pedidos .textoPedidos .color {
+      color: white; }
+    body .pedidos .textoPedidos .letraPedidos {
+      text-align: center;
+      font-size: 90px;
+      letter-spacing: 7px;
+      font-weight: bold;
+      font-family: 'Alfa Slab One', cursive; }
+  body .pedidos .contedorLogoPedidos {
+    width: auto;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px; }
+    body .pedidos .contedorLogoPedidos .pedidoLogo {
+      border-radius: 20px;
+      width: 200px;
+      height: 200px; }
 
 body {
   background-image: url("../img/back.jpg"); }
