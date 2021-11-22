@@ -148,6 +148,49 @@ body .sabores {
       height: 400px;
       border-radius: 200px; }
 
+body .pedidos {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0 50px;
+  background-image: url("/img/saboresBanner.jpg");
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: cover; }
+  body .pedidos .textoPedidos {
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px; }
+    body .pedidos .textoPedidos .trasparente {
+      color: transparent;
+      -webkit-text-stroke: 1px white; }
+    body .pedidos .textoPedidos .color {
+      color: white; }
+    body .pedidos .textoPedidos .letraPedidos {
+      text-align: center;
+      font-size: 90px;
+      letter-spacing: 7px;
+      font-weight: bold;
+      font-family: 'Alfa Slab One', cursive; }
+  body .pedidos .contedorLogoPedidos {
+    width: auto;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px; }
+    body .pedidos .contedorLogoPedidos .pedidoLogo {
+      border-radius: 20px;
+      width: 200px;
+      height: 200px; }
+
 body .tituloLocalIndex {
   font-size: 40px;
   font-family: 'Alfa Slab One', cursive;
@@ -190,49 +233,6 @@ body .locales {
     body .locales .cardLocal .iconRedes {
       width: 40px;
       padding: 5px; }
-
-body .pedidos {
-  width: 100%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  flex-direction: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 50px 0 50px;
-  background-image: url("/img/saboresBanner.jpg");
-  background-repeat: space;
-  background-attachment: fixed;
-  background-size: cover; }
-  body .pedidos .textoPedidos {
-    width: 600px;
-    height: 300px;
-    padding: 20px;
-    margin: 20px; }
-    body .pedidos .textoPedidos .trasparente {
-      color: transparent;
-      -webkit-text-stroke: 1px white; }
-    body .pedidos .textoPedidos .color {
-      color: white; }
-    body .pedidos .textoPedidos .letraPedidos {
-      text-align: center;
-      font-size: 90px;
-      letter-spacing: 7px;
-      font-weight: bold;
-      font-family: 'Alfa Slab One', cursive; }
-  body .pedidos .contedorLogoPedidos {
-    width: auto;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    align-items: center;
-    padding: 20px;
-    margin: 20px; }
-    body .pedidos .contedorLogoPedidos .pedidoLogo {
-      border-radius: 20px;
-      width: 200px;
-      height: 200px; }
 
 body header {
   width: 100%; }
@@ -500,1439 +500,851 @@ body {
       position: relative;
       top: 70px; }
 
-/* //Index
-
-
-@media (max-width: 1399px) {
-
-    header {
-        width: auto;
+@media (max-width: 1200px) {
+  header {
+    width: auto;
+    height: 91px; }
+  body .historiaHome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+    body .historiaHome .izq {
+      width: 400px;
+      height: 430px;
+      margin: 0px; }
+      body .historiaHome .izq .imgHome {
+        width: 300px;
+        height: auto; }
+      body .historiaHome .izq .tituloSpan {
+        font-size: 30px;
+        letter-spacing: 2px; }
+      body .historiaHome .izq .parrafoHistoria {
+        width: 400px;
         height: 200px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
-        width: auto;
-        height: 150px;
-    }
-
-    //carousel
-    .carousel-item>img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: auto;
-        padding: 5px;
-    }
-
-    .carousel-inner {
-        width: 100%;
-        height: 619px;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 489px;
-    }
-
-    .contenedorCarousel {
-        width: 100%;
-        height: 409px;
-    }
-
-
-
-
-    body {
-        background-image: url(../img/back.jpg);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            margin-top: 100px;
-            width: 100%;
-            height: 667px;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 400px;
-                height: 430px;
-
-                .imgHome {
-                    width: 300px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 42px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-
-                .parrafoHistoria {
-                    width: 400px;
-                    height: 200px;
-                    text-align: center;
-                    font-size: 21px;
-                    letter-spacing: 1px;
-                    margin: 8 px 50 px 0 50 px;
-                }
-            }
-
-            .der {
-                width: 400px;
-                height: 400px;
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-
-                .foto03 {
-                    width: 235px;
-                    height: auto;
-                    position: absolute;
-                    left: 223px;
-                    top: 151px;
-                }
-
-                .foto02 {
-                    width: 233px;
-                    height: auto;
-                    position: absolute;
-                    left: 49px;
-                    top: 48px;
-                }
-
-                .foto01 {
-                    width: 233px;
-                    height: auto;
-                    position: absolute;
-                    left: 47px;
-                    top: 237px;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 42px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 0;
-            margin: 50px 0 20px 0;
-        }
-
-
-        .locales {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: row;
-
-            .cardLocal {
-                padding: 20px 0;
-                width: 444px;
-                margin-bottom: 25px;
-                text-align: center;
-                display: inline-block;
-                margin: 10;
-                border-radius: 10 px;
-                box-shadow: 2px 1px 10px #ddd;
-                background: #fff;
-
-                .localImg {
-                    width: 390px;
-                }
-
-                .linea {
-                    width: 175px;
-                    height: 3px;
-                    margin-left: 120px;
-                    background: #4e4e4e;
-                }
-            }
-        }
-
-        .pedidosYaContainer {
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 2414px;
-                    font-size: 38px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-}
-
-@media (max-width: 1199px) {
-
-    header {
-        width: auto;
-        height: 200px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
-        width: auto;
-        height: 150px;
-    }
-
-    //carousel
-    .carousel-item>img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: auto;
-        padding: 5px;
-    }
-
-    .carousel-inner {
-        width: 100%;
-        height: 619px;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 489px;
-    }
-
-    .contenedorCarousel {
-        width: 100%;
-        height: 409px;
-    }
-
-
-
-
-    body {
-        background-image: url(../img/back.jpg);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            margin-top: 100px;
-            width: 100%;
-            height: 667px;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 400px;
-                height: 430px;
-
-                .imgHome {
-                    width: 300px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 42px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-
-                .parrafoHistoria {
-                    width: 400px;
-                    height: 200px;
-                    text-align: center;
-                    font-size: 21px;
-                    letter-spacing: 1px;
-                    margin: 8 px 50 px 0 50 px;
-                }
-            }
-
-            .der {
-                width: 400px;
-                height: 400px;
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-
-                .foto03 {
-                    width: 235px;
-                    height: auto;
-                    position: absolute;
-                    left: 223px;
-                    top: 151px;
-                }
-
-                .foto02 {
-                    width: 233px;
-                    height: auto;
-                    position: absolute;
-                    left: 49px;
-                    top: 48px;
-                }
-
-                .foto01 {
-                    width: 233px;
-                    height: auto;
-                    position: absolute;
-                    left: 47px;
-                    top: 237px;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 42px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 0;
-            margin: 50px 0 20px 0;
-        }
-
-
-        .locales {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: row;
-
-            .cardLocal {
-                padding: 20px 0;
-                width: 444px;
-                margin-bottom: 25px;
-                text-align: center;
-                display: inline-block;
-                margin: 10;
-                border-radius: 10 px;
-                box-shadow: 2px 1px 10px #ddd;
-                background: #fff;
-
-                .localImg {
-                    width: 390px;
-                }
-
-                .linea {
-                    width: 175px;
-                    height: 3px;
-                    margin-left: 120px;
-                    background: #4e4e4e;
-                }
-            }
-        }
-
-        .pedidosYaContainer {
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 2414px;
-                    font-size: 38px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-}
-
-@media (max-width: 991px) {
-    //menu
-
-    header label {
-        display: block;
-    }
-
-    .menu {
-        position: absolute;
-        width: 70%;
-        margin-left: -70%;
-    }
-
-    .menu ul {
-        flex-direction: column;
-    }
-
-    #btn-menu:checked~.menu {
-        margin: 0;
-        z-index: 1;
-    }
-
-    //Nuestra historia
-    .historiaHome {
-        width: 100%;
-        height: auto;
-        padding: 90 px 0 px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: url(../img/fondo.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        flex-direction: column;
-    }
-
-    //Locales
-    .locales {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        animation-name: cardLocal;
-        animation-duration: 4s;
-        animation-iteration-count: ease;
-        flex-direction: column;
-    }
-
-    //Pedidos ya
-    .pedidosYaContainer .contenedorPedidos .titleAbsoluteIndex {
-        font-size: 44px;
+        text-align: center;
+        font-size: 21px;
         letter-spacing: 1px;
+        margin: 8 px 50 px 0 50 px; }
+    body .historiaHome .der {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation-name: foto02;
+      animation-duration: 6s;
+      animation-iteration-count: unset; }
+      body .historiaHome .der .foto03 {
+        width: 205px;
+        height: auto;
         position: absolute;
-        padding: 0 15 px 0 15 px;
-        top: 4054px;
-        background-color: white;
-    }
-}
-
-@media (max-width: 800px) {
-    header {
-        width: auto;
-        height: 130px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
-        width: auto;
-        height: 100px;
-    }
-
-    //carousel
-    .carousel-item>img {
+        left: 223px;
+        top: 151px; }
+      body .historiaHome .der .foto02 {
+        width: 203px;
+        height: auto;
         position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: 422px;
-        padding: 5px;
-    }
+        left: 49px;
+        top: 48px; }
+      body .historiaHome .der .foto01 {
+        width: 203px;
+        height: auto;
+        position: absolute;
+        left: 47px;
+        top: 216px; }
+  body .sabores {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    width: 100%;
+    height: auto; }
+    body .sabores .contenedorSabores {
+      width: auto;
+      height: 400px;
+      padding: 10px;
+      margin: 20px; }
+      body .sabores .contenedorSabores .imgSabores {
+        width: 320px;
+        height: 320px;
+        border-radius: 200px; }
+  body .pedidos {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 60px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 20px;
+      margin: 20px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 150px;
+        height: 150px; }
+  body .locales {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: cardLocal;
+    animation-duration: 4s;
+    animation-iteration-count: ease;
+    flex-direction: row; }
+    body .locales .cardLocal {
+      padding: 20px 0;
+      width: 433px;
+      margin-bottom: 25px;
+      text-align: center;
+      display: inline-block;
+      margin: 10;
+      border-radius: 10 px;
+      box-shadow: 2px 1px 10px #ddd;
+      background: #fff; }
+      body .locales .cardLocal .localImg {
+        width: 390px;
+        height: 500px; }
+      body .locales .cardLocal .linea {
+        width: 175px;
+        height: 3px;
+        margin-left: 120px;
+        background: #4e4e4e; } }
 
-    .carousel-inner {
-        width: 100%;
-        height: 422px;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 422px;
-    }
-
-    .contenedorCarousel {
-        width: 100%;
-        height: 422px;
-    }
-
-
-
-
-    body {
-        background-image: url(../img/back.jpg);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            margin: 0 auto;
-            padding-top: 0;
-            width: 100%;
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 300px;
-                height: 310px;
-
-                .imgHome {
-                    width: 187px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 28px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-
-                .parrafoHistoria {
-                    width: 300px;
-                    height: 150px;
-                    text-align: center;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    margin: 8 px 50 px 0 50 px;
-                }
-            }
-
-            .der {
-                width: 300px;
-                height: 300px;
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-
-                .foto03 {
-                    width: 150px;
-                    height: auto;
-                    position: absolute;
-                    left: 150px;
-                    top: 158px;
-                }
-
-                .foto02 {
-                    width: 149px;
-                    height: auto;
-                    position: absolute;
-                    left: 20px;
-                    top: 72px;
-                }
-
-                .foto01 {
-                    width: 143px;
-                    height: auto;
-                    position: absolute;
-                    left: 20px;
-                    top: 193px;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 28px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-
-
-        .locales {
-            width: 800px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: row;
-
-            .cardLocal {
-                padding: 20px 0;
-                width: 300px;
-                height: 565px;
-                margin: 25px 5px;
-                text-align: center;
-                display: inline-block;
-                border-radius: 10 px;
-                box-shadow: 2px 1px 10px #ddd;
-                background: #fff;
-
-                .localImg {
-                    width: 240px;
-                    height: 300px;
-                }
-
-                .linea {
-                    width: 127px;
-                    height: 3 px;
-                    font-weight: 50px;
-                    background: #4e4e4e;
-                    margin-left: 79px;
-                }
-            }
-        }
-
-        .pedidosYaContainer {
-            width: 586px;
-            height: 200px;
-
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 1623px;
-                    font-size: 24px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-
-}
-
-@media (max-width: 767px) {
-
-    header {
-        width: auto;
+@media (max-width: 1024px) {
+  header {
+    width: auto;
+    height: 91px; }
+  body .historiaHome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+    body .historiaHome .izq {
+      width: 400px;
+      height: 430px;
+      margin: 0px; }
+      body .historiaHome .izq .imgHome {
+        width: 300px;
+        height: auto; }
+      body .historiaHome .izq .tituloSpan {
+        font-size: 30px;
+        letter-spacing: 2px; }
+      body .historiaHome .izq .parrafoHistoria {
+        width: 400px;
         height: 200px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
-        width: auto;
-        height: 150px;
-    }
-
-    //carousel
-    .carousel-item>img {
+        text-align: center;
+        font-size: 21px;
+        letter-spacing: 1px;
+        margin: 8 px 50 px 0 50 px; }
+    body .historiaHome .der {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation-name: foto02;
+      animation-duration: 6s;
+      animation-iteration-count: unset; }
+      body .historiaHome .der .foto03 {
+        width: 205px;
+        height: auto;
         position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: 444px;
-        padding: 5px;
-    }
+        left: 223px;
+        top: 151px; }
+      body .historiaHome .der .foto02 {
+        width: 203px;
+        height: auto;
+        position: absolute;
+        left: 49px;
+        top: 48px; }
+      body .historiaHome .der .foto01 {
+        width: 203px;
+        height: auto;
+        position: absolute;
+        left: 47px;
+        top: 216px; }
+  body .sabores {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    width: 100%;
+    height: auto; }
+    body .sabores .contenedorSabores {
+      width: auto;
+      height: 400px;
+      padding: 10px;
+      margin: 20px; }
+      body .sabores .contenedorSabores .imgSabores {
+        width: 270px;
+        height: 270px;
+        border-radius: 200px; }
+  body .pedidos {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 58px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 20px;
+      margin: 20px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 150px;
+        height: 150px; }
+  body .locales {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; }
+    body .locales .cardLocal {
+      padding: 20px 0;
+      width: 433px;
+      margin-bottom: 25px;
+      text-align: center;
+      display: inline-block;
+      margin: 15px 25px;
+      border-radius: 10 px;
+      box-shadow: 2px 1px 10px #ddd;
+      background: #fff; }
+      body .locales .cardLocal .localImg {
+        width: 340px;
+        height: 480px; }
+      body .locales .cardLocal .linea {
+        width: 175px;
+        height: 3px;
+        margin-left: 120px;
+        background: #4e4e4e; } }
 
-    .carousel-inner {
-        width: 100%;
-        height: 444px;
-    }
+@media (max-width: 768px) {
+  header {
+    width: auto;
+    height: 91px; }
+  body .historiaHome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+    body .historiaHome .izq {
+      width: 400px;
+      height: 430px;
+      margin: 0px; }
+      body .historiaHome .izq .imgHome {
+        width: 300px;
+        height: auto; }
+      body .historiaHome .izq .tituloSpan {
+        font-size: 30px;
+        letter-spacing: 2px; }
+      body .historiaHome .izq .parrafoHistoria {
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        font-size: 21px;
+        letter-spacing: 1px;
+        margin: 8 px 50 px 0 50 px; }
+    body .historiaHome .der {
+      opacity: 0;
+      width: 0px;
+      height: 0px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation-name: foto02;
+      animation-duration: 6s;
+      animation-iteration-count: unset; }
+      body .historiaHome .der .foto03 {
+        width: 0px;
+        height: auto; }
+      body .historiaHome .der .foto02 {
+        width: 0px;
+        height: auto; }
+      body .historiaHome .der .foto01 {
+        width: 0px;
+        height: auto; }
+  body .sabores {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    width: 100%;
+    height: auto; }
+    body .sabores .contenedorSabores {
+      width: auto;
+      height: 250px;
+      padding: 5px;
+      margin: 10px; }
+      body .sabores .contenedorSabores .imgSabores {
+        width: 270px;
+        height: 270px;
+        border-radius: 200px; }
+  body .pedidos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 5px;
+      margin: 5px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px; }
+  body .locales {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row; }
+    body .locales .cardLocal {
+      padding: 5px 0;
+      width: 315px;
+      margin-bottom: 25px;
+      text-align: center;
+      display: inline-block;
+      margin: 7px 12px;
+      border-radius: 10 px;
+      box-shadow: 2px 1px 10px #ddd;
+      background: #fff; }
+      body .locales .cardLocal .localImg {
+        width: 310px;
+        height: 380px; }
+      body .locales .cardLocal .linea {
+        width: 175px;
+        height: 3px;
+        margin-left: 70px;
+        background: #4e4e4e; } }
 
-    .carousel {
-        width: 100%;
-        height: 444px;
-    }
+@media (max-width: 600px) {
+  header {
+    width: auto;
+    height: 91px; }
+  body .historiaHome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+    body .historiaHome .izq {
+      width: 400px;
+      height: 430px;
+      margin: 0px; }
+      body .historiaHome .izq .imgHome {
+        width: 300px;
+        height: auto; }
+      body .historiaHome .izq .tituloSpan {
+        font-size: 30px;
+        letter-spacing: 2px; }
+      body .historiaHome .izq .parrafoHistoria {
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        font-size: 21px;
+        letter-spacing: 1px;
+        margin: 8 px 50 px 0 50 px; }
+    body .historiaHome .der {
+      opacity: 0;
+      width: 0px;
+      height: 0px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation-name: foto02;
+      animation-duration: 6s;
+      animation-iteration-count: unset; }
+      body .historiaHome .der .foto03 {
+        width: 0px;
+        height: auto; }
+      body .historiaHome .der .foto02 {
+        width: 0px;
+        height: auto; }
+      body .historiaHome .der .foto01 {
+        width: 0px;
+        height: auto; }
+  body .sabores {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    width: 100%;
+    height: auto; }
+    body .sabores .contenedorSabores {
+      width: auto;
+      height: 250px;
+      padding: 5px;
+      margin: 10px; }
+      body .sabores .contenedorSabores .imgSabores {
+        width: 270px;
+        height: 270px;
+        border-radius: 200px; }
+  body .pedidos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 5px;
+      margin: 5px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px; }
+  body .locales {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row; }
+    body .locales .cardLocal {
+      padding: 5px 0;
+      width: 315px;
+      margin-bottom: 25px;
+      text-align: center;
+      display: inline-block;
+      margin: 7px 12px;
+      border-radius: 10 px;
+      box-shadow: 2px 1px 10px #ddd;
+      background: #fff; }
+      body .locales .cardLocal .localImg {
+        width: 310px;
+        height: 380px; }
+      body .locales .cardLocal .linea {
+        width: 175px;
+        height: 3px;
+        margin-left: 70px;
+        background: #4e4e4e; } }
 
-    .contenedorCarousel {
-        width: 100%;
-        height: 444px;
-    }
-
-
-
-
-    body {
-        background-image: url(../img/back.jpg);
+@media (max-width: 480px) {
+  header {
+    width: auto;
+    height: 91px; }
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    body .historiaHome {
+      width: 400px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../img/fondo.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0; }
+      body .historiaHome .izq {
+        width: 300px;
+        height: 430px;
+        margin: 0px; }
+        body .historiaHome .izq .imgHome {
+          width: 200px;
+          height: auto; }
+        body .historiaHome .izq .tituloSpan {
+          font-size: 20px;
+          letter-spacing: 2px; }
+        body .historiaHome .izq .parrafoHistoria {
+          width: 250px;
+          height: 200px;
+          text-align: center;
+          font-size: 17px;
+          letter-spacing: 1px;
+          margin: 8px 10px 0 10px; }
+      body .historiaHome .der {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            width: 100%;
-            height: 667px;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 400px;
-                height: 430px;
-
-                .imgHome {
-                    width: 260px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 38px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-
-                .parrafoHistoria {
-                    width: 350px;
-                    height: 200px;
-                    text-align: center;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    margin: 8 px 50 px 0 50 px;
-                }
-            }
-
-            .der {
-                width: 400px;
-                height: 400px;
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-
-                .foto03 {
-                    width: 193px;
-                    height: auto;
-                    position: absolute;
-                    left: 108px;
-                    top: 136px;
-                }
-
-                .foto02 {
-                    width: 188px;
-                    height: auto;
-                    position: absolute;
-                    left: 0px;
-                    top: 48px;
-                }
-
-                .foto01 {
-                    width: 188px;
-                    height: auto;
-                    position: absolute;
-                    left: 0px;
-                    top: 200px;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 38px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 0;
-            margin: 25px 0 10px 0;
-        }
-
-
-        .locales {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: row;
-
-            .cardLocal {
-                padding: 20px 0;
-                width: 350px;
-                margin-bottom: 25px;
-                text-align: center;
-                display: inline-block;
-                margin: 10;
-                border-radius: 10 px;
-                box-shadow: 2px 1px 10px #ddd;
-                background: #fff;
-
-                .localImg {
-                    width: 320px;
-                }
-
-                .linea {
-                    width: 175px;
-                    height: 3px;
-                    margin-left: 90px;
-                    background: #4e4e4e;
-                }
-            }
-        }
-
-        .pedidosYaContainer {
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 2414px;
-                    font-size: 38px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-}
-
-
-@media (max-width: 575px) {
-    header {
+        animation-name: foto02;
+        animation-duration: 6s;
+        animation-iteration-count: unset; }
+        body .historiaHome .der .foto03 {
+          width: 0px;
+          height: auto; }
+        body .historiaHome .der .foto02 {
+          width: 0px;
+          height: auto; }
+        body .historiaHome .der .foto01 {
+          width: 0px;
+          height: auto; }
+    body .sabores {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      margin: 50px 0;
+      width: 400px;
+      height: auto; }
+      body .sabores .contenedorSabores {
         width: auto;
-        height: 130px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
+        height: 250px;
+        padding: 5px;
+        margin: 10px; }
+        body .sabores .contenedorSabores .imgSabores {
+          width: 240px;
+          height: 240px;
+          border-radius: 200px; }
+    body .pedidos {
+      width: 400px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 50px 0 50px;
+      background-image: url("/img/saboresBanner.jpg");
+      background-repeat: space;
+      background-attachment: fixed;
+      background-size: cover; }
+      body .pedidos .textoPedidos {
+        width: 200px;
+        height: 100px;
+        padding: 5px;
+        margin: 5px; }
+        body .pedidos .textoPedidos .trasparente {
+          color: transparent;
+          -webkit-text-stroke: 1px white; }
+        body .pedidos .textoPedidos .color {
+          color: white; }
+        body .pedidos .textoPedidos .letraPedidos {
+          text-align: center;
+          font-size: 27px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive; }
+      body .pedidos .contedorLogoPedidos {
         width: auto;
         height: 100px;
-    }
-
-    //carousel
-    .carousel-item>img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: 389px;
-        padding: 5px;
-    }
-
-    .carousel-inner {
-        width: 100%;
-        height: 389px;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 389px;
-    }
-
-    .contenedorCarousel {
-        width: 100%;
-        height: 389px;
-    }
-
-
-
-
-    body {
-        background-image: url(../img/back.jpg);
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-direction: center;
         align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            padding: 0;
-            width: 100%;
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 400px;
-                height: 430px;
-
-                .imgHome {
-                    width: 213px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 44px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 44px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 80px 0 40px 0;
-            margin: 100px 0 20px 0;
-        }
-
-        .locales {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: column;
-        }
-
-        .pedidosYaContainer {
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 3444px;
-                    font-size: 44px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-}
-
-@media (max-width: 425px) {
-    header {
-        width: auto;
-        height: 130px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
-        width: auto;
-        height: 100px;
-    }
-
-    .carousel-item>img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: 289px;
-        padding: 5px;
-    }
-
-    .carousel-inner {
-        width: 100%;
-        height: 289px;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 289px;
-    }
-
-    .contenedorCarousel {
-        width: 100%;
-        height: 289px;
-    }
-
-
-    body {
-        background-image: url(../img/back.jpg);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            margin: 0;
-            width: 100%;
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 400px;
-                height: 400px;
-
-                .imgHome {
-                    width: 213px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 35px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-
-                .parrafoHistoria {
-                    width: 300px;
-                    height: 150px;
-                    text-align: center;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    margin: 8 px 50 px 0 50 px;
-                }
-            }
-
-            .der {
-                width: 400px;
-                height: 400px;
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-
-                .foto03 {
-                    width: 180px;
-                    height: auto;
-                    position: absolute;
-                    left: 196px;
-                    top: 67px;
-                }
-
-                .foto02 {
-                    width: 172px;
-                    height: auto;
-                    position: absolute;
-                    left: 49px;
-
-                }
-
-                .foto01 {
-                    width: 172px;
-                    height: auto;
-                    position: absolute;
-                    left: 47px;
-                    top: 140px;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 35px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-
-
-        .locales {
-            width: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: column;
-
-            .cardLocal {
-                padding: 20px 0;
-                width: 390px;
-                margin-bottom: 25px;
-                text-align: center;
-                display: inline-block;
-                margin: 10;
-                border-radius: 10 px;
-                box-shadow: 2px 1px 10px #ddd;
-                background: #fff;
-
-                .localImg {
-                    width: 350px;
-                }
-            }
-        }
-
-        .pedidosYaContainer {
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 3037px;
-                    font-size: 28px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-
-}
+        padding: 10px;
+        margin: 10px; }
+        body .pedidos .contedorLogoPedidos .pedidoLogo {
+          border-radius: 20px;
+          width: 75px;
+          height: 75px; }
+    body .locales {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: row; }
+      body .locales .cardLocal {
+        padding: 5px 0;
+        width: 315px;
+        margin-bottom: 25px;
+        text-align: center;
+        display: inline-block;
+        margin: 7px 12px;
+        border-radius: 10 px;
+        box-shadow: 2px 1px 10px #ddd;
+        background: #fff; }
+        body .locales .cardLocal .localImg {
+          width: 310px;
+          height: 380px; }
+        body .locales .cardLocal .linea {
+          width: 175px;
+          height: 3px;
+          margin-left: 70px;
+          background: #4e4e4e; } }
 
 @media (max-width: 320px) {
-    header {
-        width: auto;
-        height: 130px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    //Logo
-    body header .contenedorLogo .logoNav {
-        width: auto;
-        height: 100px;
-    }
-
-    //carousel
-    .carousel-item>img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 10%;
-        height: auto;
-        padding: 5px;
-    }
-
-    .carousel-inner {
-        width: 100%;
-        height: 219px;
-    }
-
-    .carousel {
-        width: 100%;
-        height: 289px;
-    }
-
-    .contenedorCarousel {
-        width: 100%;
-        height: 159px;
-    }
-
-
-
-
-    body {
-        background-image: url(../img/back.jpg);
+  header {
+    width: auto;
+    height: 92px; }
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    body .historiaHome {
+      width: 250px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../img/fondo.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0; }
+      body .historiaHome .izq {
+        width: 250px;
+        height: 430px;
+        margin: 0px; }
+        body .historiaHome .izq .imgHome {
+          width: 150px;
+          height: auto; }
+        body .historiaHome .izq .tituloSpan {
+          font-size: 20px;
+          letter-spacing: 2px; }
+        body .historiaHome .izq .parrafoHistoria {
+          width: 250px;
+          height: 200px;
+          text-align: center;
+          font-size: 13px;
+          letter-spacing: 1px;
+          margin: 8px 10px 0 10px; }
+      body .historiaHome .der {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        align-content: center;
-
-        .menu {
-            position: absolute;
-            width: 70%;
-            margin-left: -70%;
-
-            ul {
-                flex-direction: column;
-            }
-
-        }
-
-        #btn-menu:checked~.menu {
-            margin: 0;
-            z-index: 1;
-        }
-
-
-        .historiaHome {
-            padding-top: 0;
-            width: 100%;
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            background-image: url(../img/fondo.jpg);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
-            .izq {
-                width: 300px;
-                height: 310px;
-
-                .imgHome {
-                    width: 187px;
-                    height: auto;
-
-                }
-
-                .tituloSpan {
-                    font-size: 28px;
-                    letter-spacing: 2px;
-                    font-weight: 600;
-                }
-
-                .parrafoHistoria {
-                    width: 300px;
-                    height: 150px;
-                    text-align: center;
-                    font-size: 15px;
-                    letter-spacing: 1px;
-                    margin: 8 px 50 px 0 50 px;
-                }
-            }
-
-            .der {
-                width: 300px;
-                height: 300px;
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                animation-name: foto02;
-                animation-duration: 6s;
-                animation-iteration-count: unset;
-
-                .foto03 {
-                    width: 150px;
-                    height: auto;
-                    position: absolute;
-                    left: 150px;
-                    top: 158px;
-                }
-
-                .foto02 {
-                    width: 149px;
-                    height: auto;
-                    position: absolute;
-                    left: 20px;
-                    top: 72px;
-                }
-
-                .foto01 {
-                    width: 143px;
-                    height: auto;
-                    position: absolute;
-                    left: 20px;
-                    top: 193px;
-                }
-            }
-        }
-
-        .tituloLocal {
-            font-size: 28px;
-            line-height: 58px;
-            text-align: center;
-            font-weight: bold;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-
-
-        .locales {
-            width: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation-name: cardLocal;
-            animation-duration: 4s;
-            animation-iteration-count: ease;
-            flex-direction: column;
-
-            .cardLocal {
-                padding: 20px 0;
-                width: 290px;
-                height: 565px;
-                margin-bottom: 25px;
-                text-align: center;
-                display: inline-block;
-                margin: 10;
-                border-radius: 10 px;
-                box-shadow: 2px 1px 10px #ddd;
-                background: #fff;
-
-                .localImg {
-                    width: 270px;
-                    height: 300px;
-                }
-
-                .linea {
-                    width: 127px;
-                    height: 3 px;
-                    font-weight: 50px;
-                    background: #4e4e4e;
-                    margin-left: 79px;
-                }
-            }
-        }
-
-        .pedidosYaContainer {
-            width: 290px;
-            height: 200px;
-
-            .contenedorPedidos {
-                .titleAbsoluteIndex {
-                    top: 2274px;
-                    font-size: 20px;
-                    letter-spacing: 1px;
-                    position: absolute;
-                    padding: 0 15px 0 15px;
-                    background-color: white;
-                }
-            }
-        }
-
-    }
-
-} */
+        animation-name: foto02;
+        animation-duration: 6s;
+        animation-iteration-count: unset; }
+        body .historiaHome .der .foto03 {
+          width: 0px;
+          height: auto; }
+        body .historiaHome .der .foto02 {
+          width: 0px;
+          height: auto; }
+        body .historiaHome .der .foto01 {
+          width: 0px;
+          height: auto; }
+    body .sabores {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      margin: 50px 0;
+      width: 250px;
+      height: auto; }
+      body .sabores .contenedorSabores {
+        width: auto;
+        height: 250px;
+        padding: 5px;
+        margin: 5px; }
+        body .sabores .contenedorSabores .imgSabores {
+          width: 200px;
+          height: 200px;
+          border-radius: 200px; }
+    body .pedidos {
+      width: 300px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 50px 0 50px;
+      background-image: url("/img/saboresBanner.jpg");
+      background-repeat: space;
+      background-attachment: fixed;
+      background-size: cover; }
+      body .pedidos .textoPedidos {
+        width: 200px;
+        height: 100px;
+        padding: 5px;
+        margin: 5px; }
+        body .pedidos .textoPedidos .trasparente {
+          color: transparent;
+          -webkit-text-stroke: 1px white; }
+        body .pedidos .textoPedidos .color {
+          color: white; }
+        body .pedidos .textoPedidos .letraPedidos {
+          text-align: center;
+          font-size: 27px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive; }
+      body .pedidos .contedorLogoPedidos {
+        width: 250px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px; }
+        body .pedidos .contedorLogoPedidos .pedidoLogo {
+          border-radius: 20px;
+          width: 75px;
+          height: 75px; }
+    body .locales {
+      width: 250px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: row; }
+      body .locales .cardLocal {
+        padding: 5px 0;
+        width: 315px;
+        margin-bottom: 25px;
+        text-align: center;
+        display: inline-block;
+        margin: 7px 12px;
+        border-radius: 10 px;
+        box-shadow: 2px 1px 10px #ddd;
+        background: #fff; }
+        body .locales .cardLocal .localImg {
+          width: 200px;
+          height: 300px; }
+        body .locales .cardLocal .linea {
+          width: 155px;
+          height: 3px;
+          margin-left: 34px;
+          background: #4e4e4e; } }
