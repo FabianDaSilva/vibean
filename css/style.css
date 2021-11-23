@@ -251,31 +251,62 @@ body .imgBannerSabores {
   height: 500px;
   padding: 10px 0 10 0; }
 
+body .tituloHeladoSabores {
+  font-size: 52px;
+  color: #212529;
+  font-family: 'Alfa Slab One', cursive;
+  margin: 5px;
+  padding: 5px; }
+
+body .lineaRoja {
+  background-color: #e36414;
+  width: 300px;
+  height: 4px;
+  margin: 5px 0px; }
+
 body .fondoSabores {
   background-image: url("../img/back.jpg");
   width: 100%;
-  height: auto; }
-  body .fondoSabores .titleListaSabores {
-    font-size: 60px;
-    text-align: center;
-    padding-top: 20px; }
-  body .fondoSabores .saboresHeladosCard {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 80px;
-    padding-bottom: 60px; }
-    body .fondoSabores .saboresHeladosCard .saboresFoto .imgHelado {
-      width: 540px;
-      height: 540px;
-      margin-top: 140px; }
-    body .fondoSabores .saboresHeladosCard .listaSabores {
-      font-size: 24px;
-      width: 900px;
-      margin: 0px 40px;
-      margin-top: 80px;
-      column-count: 2; }
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  body .fondoSabores .contenedorGeneral {
+    width: 100%;
+    height: 25%;
+    flex-wrap: wrap; }
+    body .fondoSabores .contenedorGeneral .centro {
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center; }
+    body .fondoSabores .contenedorGeneral .saboresHeladosCard {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto {
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-end; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto .imgHelado {
+          width: 350px;
+          height: 350px;
+          border-radius: 200%; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard .listaSabores {
+        font-size: 20px;
+        width: auto;
+        height: auto;
+        margin: 80px 40px;
+        column-count: 2;
+        padding: 10px;
+        margin: 10px; }
 
 body .pedidos {
   width: 100%;
@@ -487,6 +518,7 @@ body {
       position: relative;
       top: 70px; }
 
+/* Index */
 @media (max-width: 1200px) {
   header {
     width: auto;
@@ -1335,3 +1367,568 @@ body {
           height: 3px;
           margin-left: 34px;
           background: #4e4e4e; } }
+
+@media (max-width: 1024px) {
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerSabores {
+    background-image: url("../img/saboresBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    padding: 10px 0 10 0; }
+  body .tituloHeladoSabores {
+    font-size: 52px;
+    color: #212529;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 5px;
+    padding: 5px; }
+  body .lineaRoja {
+    background-color: #e36414;
+    width: 300px;
+    height: 4px;
+    margin: 5px 0px; }
+  body .fondoSabores {
+    background-image: url("../img/back.jpg");
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    body .fondoSabores .contenedorGeneral {
+      width: 100%;
+      height: 25%;
+      flex-wrap: wrap; }
+      body .fondoSabores .contenedorGeneral .centro {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto {
+          width: auto;
+          height: auto;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          align-content: flex-end; }
+          body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto .imgHelado {
+            width: 350px;
+            height: 350px;
+            border-radius: 200%; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .listaSabores {
+          font-size: 20px;
+          width: auto;
+          height: auto;
+          margin: 80px 40px;
+          column-count: 2;
+          padding: 10px;
+          margin: 10px; }
+  body .pedidos {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 58px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 20px;
+      margin: 20px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 150px;
+        height: 150px; } }
+
+@media (max-width: 768px) {
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerSabores {
+    background-image: url("../img/saboresBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    padding: 10px 0 10 0; }
+  body .tituloHeladoSabores {
+    font-size: 52px;
+    color: #212529;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 5px;
+    padding: 5px; }
+  body .lineaRoja {
+    background-color: #e36414;
+    width: 300px;
+    height: 4px;
+    margin: 5px 0px; }
+  body .fondoSabores {
+    background-image: url("../img/back.jpg");
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    body .fondoSabores .contenedorGeneral {
+      width: 100%;
+      height: 25%;
+      flex-wrap: wrap; }
+      body .fondoSabores .contenedorGeneral .centro {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto {
+          width: auto;
+          height: auto;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          align-content: flex-end; }
+          body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto .imgHelado {
+            width: 350px;
+            height: 350px;
+            border-radius: 200%; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .listaSabores {
+          font-size: 20px;
+          width: auto;
+          height: auto;
+          margin: 80px 40px;
+          column-count: 2;
+          padding: 10px;
+          margin: 10px; }
+  body .pedidos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 5px;
+      margin: 5px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px; } }
+
+@media (max-width: 600px) {
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerSabores {
+    background-image: url("../img/saboresBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    padding: 10px 0 10 0; }
+  body .tituloHeladoSabores {
+    font-size: 42px;
+    color: #212529;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 5px;
+    padding: 5px; }
+  body .lineaRoja {
+    background-color: #e36414;
+    width: 200px;
+    height: 4px;
+    margin: 5px 0px; }
+  body .fondoSabores {
+    background-image: url("../img/back.jpg");
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    body .fondoSabores .contenedorGeneral {
+      width: 100%;
+      height: 25%;
+      flex-wrap: wrap; }
+      body .fondoSabores .contenedorGeneral .centro {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto {
+          width: auto;
+          height: auto;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          align-content: flex-end; }
+          body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto .imgHelado {
+            width: 300px;
+            height: 300px;
+            border-radius: 200%; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .listaSabores {
+          font-size: 17px;
+          width: auto;
+          height: auto;
+          margin: 80px 40px;
+          column-count: 2;
+          padding: 10px;
+          margin: 10px; }
+  body .pedidos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 5px;
+      margin: 5px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px; } }
+
+@media (max-width: 480px) {
+  body header {
+    width: 100%; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerSabores {
+    background-image: url("../img/saboresBanner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+    padding: 10px 0 10 0; }
+  body .tituloHeladoSabores {
+    font-size: 32px;
+    color: #212529;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 5px;
+    padding: 5px; }
+  body .lineaRoja {
+    background-color: #e36414;
+    width: 200px;
+    height: 4px;
+    margin: 5px 0px; }
+  body .fondoSabores {
+    background-image: url("../img/back.jpg");
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    body .fondoSabores .contenedorGeneral {
+      width: 100%;
+      height: 25%;
+      flex-wrap: wrap; }
+      body .fondoSabores .contenedorGeneral .centro {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto {
+          width: auto;
+          height: auto;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          align-content: flex-end; }
+          body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto .imgHelado {
+            width: 250px;
+            height: 250px;
+            border-radius: 200%; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .listaSabores {
+          font-size: 14px;
+          width: auto;
+          height: auto;
+          margin: 80px 40px;
+          column-count: 2;
+          padding: 10px;
+          margin: 10px; }
+  body .pedidos {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 200px;
+      height: 100px;
+      padding: 5px;
+      margin: 5px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 7px;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 75px;
+        height: 75px; } }
+
+@media (max-width: 320px) {
+  body header {
+    width: 100%;
+    height: 100px; }
+    body header .contenedorLogo {
+      display: flex;
+      justify-content: center; }
+      body header .contenedorLogo .logoNav {
+        width: auto;
+        height: 150px; }
+  body .imgBannerSabores {
+    background-image: url("../img/saboresBanner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto; }
+  body .tituloHeladoSabores {
+    font-size: 32px;
+    color: #212529;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 5px;
+    padding: 5px; }
+  body .lineaRoja {
+    background-color: #e36414;
+    width: 200px;
+    height: 4px;
+    margin: 5px 0px; }
+  body .fondoSabores {
+    background-image: url("../img/back.jpg");
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    body .fondoSabores .contenedorGeneral {
+      width: 100%;
+      height: 25%;
+      flex-wrap: wrap; }
+      body .fondoSabores .contenedorGeneral .centro {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center; }
+      body .fondoSabores .contenedorGeneral .saboresHeladosCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto {
+          width: auto;
+          height: auto;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          align-content: flex-end; }
+          body .fondoSabores .contenedorGeneral .saboresHeladosCard .saboresFoto .imgHelado {
+            width: 250px;
+            height: 250px;
+            border-radius: 200%; }
+        body .fondoSabores .contenedorGeneral .saboresHeladosCard .listaSabores {
+          font-size: 14px;
+          width: auto;
+          height: auto;
+          margin: 80px 40px;
+          column-count: 1;
+          padding: 10px;
+          margin: 10px; }
+  body .pedidos {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("/img/saboresBanner.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover; }
+    body .pedidos .textoPedidos {
+      width: 200px;
+      height: 100px;
+      padding: 5px;
+      margin: 5px; }
+      body .pedidos .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      body .pedidos .textoPedidos .color {
+        color: white; }
+      body .pedidos .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 7px;
+        font-family: 'Alfa Slab One', cursive; }
+    body .pedidos .contedorLogoPedidos {
+      width: 250px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      body .pedidos .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 75px;
+        height: 75px; } }
