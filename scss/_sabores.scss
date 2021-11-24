@@ -13,14 +13,6 @@ body {
         }
     }
 
-    .imgBannerSabores {
-        background-image: url("../img/saboresBanner.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        width: 100%;
-        height: 500px;
-        padding: 10px 0 10 0;
-    }
     .tituloHeladoSabores {
         font-size: 52px;
         color: rgb(33, 37, 41);
@@ -117,7 +109,7 @@ body {
         flex-wrap: wrap;
         align-items: center;
         margin: 50px 0 50px;
-        background-image: url("/img/saboresBanner.jpg");
+        background-image: url("../img/bannerHelado.jpg");
         background-repeat: space;
         background-attachment: fixed;
         background-size: cover;
