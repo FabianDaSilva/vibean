@@ -11,58 +11,6 @@ header {
   height: 90px; }
 
 /* Colores y titulos */
-.pedidosYaContainer {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation-name: pedidos;
-  animation-duration: 6s;
-  animation-iteration-count: unset;
-  padding: 0 10px 0 10px; }
-  .pedidosYaContainer .contenedorPedidos {
-    background-color: white;
-    width: 600px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: center;
-    border: 1px solid black; }
-    .pedidosYaContainer .contenedorPedidos .titleAbsoluteIndex {
-      font-size: 44px;
-      letter-spacing: 1px;
-      position: absolute;
-      padding: 0 15px 0 15px;
-      top: 4761px;
-      background-color: white; }
-    .pedidosYaContainer .contenedorPedidos .titleAbsoluteSabores {
-      font-size: 44px;
-      letter-spacing: 1px;
-      position: absolute;
-      padding: 0 15px 0 15px;
-      top: 3339px;
-      background-color: white; }
-    .pedidosYaContainer .contenedorPedidos .titleAbsolutePromociones {
-      font-size: 44px;
-      letter-spacing: 1px;
-      position: absolute;
-      padding: 0 15px 0 15px;
-      top: 1530px;
-      background-color: white; }
-    .pedidosYaContainer .contenedorPedidos .titleAbsoluteServicios {
-      font-size: 44px;
-      letter-spacing: 1px;
-      position: absolute;
-      padding: 0 15px 0 15px;
-      top: 1381px;
-      background-color: white; }
-    .pedidosYaContainer .contenedorPedidos .logoPedidos {
-      width: 100px;
-      height: 100px;
-      border-radius: 17px; }
-
 body header {
   width: 100%; }
   body header .logoNavBar {
@@ -157,7 +105,7 @@ body .pedidos {
   flex-wrap: wrap;
   align-items: center;
   margin: 50px 0 50px;
-  background-image: url("/img/saboresBanner.jpg");
+  background-image: url("../img/fondoPedidos.jpg");
   background-repeat: space;
   background-attachment: fixed;
   background-size: cover; }
@@ -243,14 +191,6 @@ body header {
       width: auto;
       height: 150px; }
 
-body .imgBannerSabores {
-  background-image: url("../img/saboresBanner.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 500px;
-  padding: 10px 0 10 0; }
-
 body .tituloHeladoSabores {
   font-size: 52px;
   color: #212529;
@@ -317,7 +257,7 @@ body .pedidos {
   flex-wrap: wrap;
   align-items: center;
   margin: 50px 0 50px;
-  background-image: url("/img/saboresBanner.jpg");
+  background-image: url("../img/fondoPedidos.jpg");
   background-repeat: space;
   background-attachment: fixed;
   background-size: cover; }
@@ -605,7 +545,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/saboresBanner.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -752,7 +692,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/saboresBanner.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -888,7 +828,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/saboresBanner.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -1025,7 +965,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/saboresBanner.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -1168,7 +1108,7 @@ body {
       flex-wrap: wrap;
       align-items: center;
       margin: 50px 0 50px;
-      background-image: url("/img/saboresBanner.jpg");
+      background-image: url("../img/saboresBanner.jpg");
       background-repeat: space;
       background-attachment: fixed;
       background-size: cover; }
@@ -1310,7 +1250,7 @@ body {
       flex-wrap: wrap;
       align-items: center;
       margin: 50px 0 50px;
-      background-image: url("/img/saboresBanner.jpg");
+      background-image: url("../img/saboresBanner.jpg");
       background-repeat: space;
       background-attachment: fixed;
       background-size: cover; }
@@ -1447,7 +1387,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/fondoPedidos.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -1560,7 +1500,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/fondoPedidos.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -1673,7 +1613,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/fondoPedidos.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -1787,7 +1727,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/fondoPedidos.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
@@ -1900,7 +1840,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 50px;
-    background-image: url("/img/saboresBanner.jpg");
+    background-image: url("../img/fondoPedidos.jpg");
     background-repeat: space;
     background-attachment: fixed;
     background-size: cover; }
