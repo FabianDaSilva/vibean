@@ -1,41 +1,41 @@
-@media (max-width:1024px){
+@media (max-width:1024px) {
     body {
         background-image: url("../img/back.jpg");
-    
+
         header {
             width: 100%;
-    
-    
+
+
             .contenedorLogo {
                 display: flex;
                 justify-content: center;
-    
+
                 .logoNav {
                     width: auto;
                     height: 150px;
                 }
             }
         }
-    
+
         .imgBannerPromociones {
             background-image: url("../img/promocionesBanner.jpg");
-            background-size: center;
-            background-attachment: fixed;
+            background-position: center center; 
+            background-repeat: contain; 
             width: 100%;
             height: 300px;
             padding: 10px 0 10 0;
             display: flex;
-    
+
             .tituloBanner {
                 width: 100%;
                 height: auto;
                 display: flex;
                 align-items: center;
-                justify-content: flex-start;            
+                justify-content: flex-start;
                 flex-wrap: wrap;
                 padding: 20px;
                 margin: 20px;
-    
+
                 .letraPromocion {
                     text-align: center;
                     font-size: 50px;
@@ -46,8 +46,8 @@
                 }
             }
         }
-    
-    
+
+
         .promocionesHelado {
             width: 100%;
             height: auto;
@@ -55,33 +55,33 @@
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
-    
+
             .cardPromocion {
                 width: auto;
                 height: auto;
                 margin: 20px;
                 padding: 20px;
-    
+
                 .promocionImg {
                     width: 550px;
                     height: 550px;
                     border-radius: 100%;
                     transition: all .3s ease-in-out;
-    
-    
+
+
                 }
-    
-    
+
+
                 .promocionImg:hover {
                     transform: scale(0.9);
                     transform-origin: center center;
                 }
-    
+
                 .titlePromocion {
                     font-size: 20px;
                     line-height: 30px;
                 }
-    
+
                 .lineaPromocion {
                     width: 110px;
                     height: 3px;
@@ -90,7 +90,7 @@
                 }
             }
         }
-    
+
         .pedidos {
             width: 100%;
             height: 600px;
@@ -102,26 +102,27 @@
             align-items: center;
             margin: 50px 0 50px;
             background-image: url("../img/fondoPedidos.jpg");
-            background-repeat: space;
             background-attachment: fixed;
-            background-size: cover;
-    
+            background-position: center center; 
+            background-repeat: contain; 
+           
+
             .textoPedidos {
                 width: 600px;
                 height: 100px;
                 padding: 20px;
                 margin: 20px;
-    
-    
+
+
                 .trasparente {
                     color: transparent;
                     -webkit-text-stroke: 1px white;
                 }
-    
+
                 .color {
                     color: white;
                 }
-    
+
                 .letraPedidos {
                     text-align: center;
                     font-size: 90px;
@@ -130,7 +131,7 @@
                     font-family: 'Alfa Slab One', cursive;
                 }
             }
-    
+
             .contedorLogoPedidos {
                 width: auto;
                 height: 260px;
@@ -140,7 +141,7 @@
                 align-items: center;
                 padding: 20px;
                 margin: 20px;
-    
+
                 .pedidoLogo {
                     border-radius: 20px;
                     width: 200px;
@@ -148,37 +149,39 @@
                 }
             }
         }
-    
-    
-    
-    
-    
+
+
+
+
+
     }
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
     body {
-        background-image: url("../img/back.jpg");   
-       
-    
+        background-image: url("../img/back.jpg");
+
+
         .imgBannerPromociones {
             background-image: url("../img/promocionesBanner.jpg");
-            background-size: center;
+            background-position: center center; 
+            background-repeat: contain; 
             background-attachment: fixed;
             width: 100%;
             height: 300px;
             padding: 10px 0 10 0;
             display: flex;
-    
+
             .tituloBanner {
                 width: 100%;
                 height: auto;
                 display: flex;
                 align-items: center;
-                justify-content: flex-start;            
+                justify-content: flex-start;
                 flex-wrap: wrap;
                 padding: 20px;
                 margin: 20px;
-    
+
                 .letraPromocion {
                     text-align: center;
                     font-size: 50px;
@@ -189,8 +192,8 @@
                 }
             }
         }
-    
-    
+
+
         .promocionesHelado {
             width: 100%;
             height: auto;
@@ -198,33 +201,33 @@
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
-    
+
             .cardPromocion {
                 width: auto;
                 height: auto;
                 margin: 20px;
                 padding: 20px;
-    
+
                 .promocionImg {
                     width: 450px;
                     height: 450px;
                     border-radius: 100%;
                     transition: all .3s ease-in-out;
-    
-    
+
+
                 }
-    
-    
+
+
                 .promocionImg:hover {
                     transform: scale(0.9);
                     transform-origin: center center;
                 }
-    
+
                 .titlePromocion {
                     font-size: 20px;
                     line-height: 30px;
                 }
-    
+
                 .lineaPromocion {
                     width: 110px;
                     height: 3px;
@@ -233,7 +236,7 @@
                 }
             }
         }
-    
+
         .pedidos {
             width: 100%;
             height: 300px;
@@ -243,35 +246,35 @@
             flex-wrap: wrap;
             align-items: center;
             margin: 50px 0 50px;
-            background-image: url("../img/fondoPedidos.jpg");
-            background-repeat: space;
+            background-image: url("../img/fondoPedidos.jpg");           
             background-attachment: fixed;
-            background-size: cover;
-        
+            background-position: center center; 
+            background-repeat: contain; 
+
             .textoPedidos {
                 width: 580px;
                 height: 157px;
                 padding: 5px;
                 margin: 5px;
-        
+
                 .trasparente {
                     color: transparent;
                     -webkit-text-stroke: 1px white;
                 }
-        
+
                 .color {
                     color: white;
                 }
-        
+
                 .letraPedidos {
                     text-align: center;
                     font-size: 48px;
                     letter-spacing: 7px;
                     font-weight: bold;
-                    font-family: 'Alfa Slab One', cursive;    
+                    font-family: 'Alfa Slab One', cursive;
                 }
             }
-            
+
             .contedorLogoPedidos {
                 width: auto;
                 height: 100px;
@@ -281,7 +284,7 @@
                 align-items: center;
                 padding: 10px;
                 margin: 10px;
-        
+
                 .pedidoLogo {
                     border-radius: 20px;
                     width: 100px;
@@ -289,37 +292,38 @@
                 }
             }
         }
-        
-    
-    
-    
-    
+
+
+
+
+
     }
 }
-@media (max-width:600px){
+
+@media (max-width:600px) {
     body {
-        background-image: url("../img/back.jpg");   
-       
-    
+        background-image: url("../img/back.jpg");
+
+
         .imgBannerPromociones {
             background-image: url("../img/promocionesBanner.jpg");
-            background-size: center;
-            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: contain;
             width: 100%;
             height: 300px;
             padding: 10px 0 10 0;
             display: flex;
-    
+
             .tituloBanner {
                 width: 100%;
                 height: auto;
                 display: flex;
                 align-items: center;
-                justify-content: flex-start;            
+                justify-content: flex-start;
                 flex-wrap: wrap;
                 padding: 20px;
                 margin: 20px;
-    
+
                 .letraPromocion {
                     text-align: center;
                     font-size: 50px;
@@ -330,8 +334,8 @@
                 }
             }
         }
-    
-    
+
+
         .promocionesHelado {
             width: 100%;
             height: auto;
@@ -339,33 +343,33 @@
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
-    
+
             .cardPromocion {
                 width: auto;
                 height: auto;
                 margin: 20px;
                 padding: 20px;
-    
+
                 .promocionImg {
                     width: 400px;
                     height: 400px;
                     border-radius: 100%;
                     transition: all .3s ease-in-out;
-    
-    
+
+
                 }
-    
-    
+
+
                 .promocionImg:hover {
                     transform: scale(0.9);
                     transform-origin: center center;
                 }
-    
+
                 .titlePromocion {
                     font-size: 20px;
                     line-height: 30px;
                 }
-    
+
                 .lineaPromocion {
                     width: 110px;
                     height: 3px;
@@ -374,7 +378,7 @@
                 }
             }
         }
-    
+
         .pedidos {
             width: 100%;
             height: 300px;
@@ -385,34 +389,34 @@
             align-items: center;
             margin: 50px 0 50px;
             background-image: url("../img/fondoPedidos.jpg");
-            background-repeat: space;
             background-attachment: fixed;
-            background-size: cover;
-        
+            background-position: center center; 
+            background-repeat: contain; 
+
             .textoPedidos {
                 width: 580px;
                 height: 157px;
                 padding: 5px;
                 margin: 5px;
-        
+
                 .trasparente {
                     color: transparent;
                     -webkit-text-stroke: 1px white;
                 }
-        
+
                 .color {
                     color: white;
                 }
-        
+
                 .letraPedidos {
                     text-align: center;
                     font-size: 48px;
                     letter-spacing: 7px;
                     font-weight: bold;
-                    font-family: 'Alfa Slab One', cursive;    
+                    font-family: 'Alfa Slab One', cursive;
                 }
             }
-            
+
             .contedorLogoPedidos {
                 width: auto;
                 height: 100px;
@@ -422,7 +426,7 @@
                 align-items: center;
                 padding: 10px;
                 margin: 10px;
-        
+
                 .pedidoLogo {
                     border-radius: 20px;
                     width: 100px;
@@ -430,37 +434,38 @@
                 }
             }
         }
-        
-    
-    
-    
-    
+
+
+
+
+
     }
 }
-@media (max-width:480px){
+
+@media (max-width:480px) {
     body {
-        background-image: url("../img/back.jpg");   
-       
-    
+        background-image: url("../img/back.jpg");
+
+
         .imgBannerPromociones {
-            background-image: url("../img/promocionesBanner.jpg");
-            background-size: center;
-            background-attachment: fixed;
+            background-image: url("../img/mobile/mobileBanner.jpg");
+            background-position: center center;
+            background-repeat: contain;
             width: 100%;
-            height: 300px;
+            height: 200px;
             padding: 10px 0 10 0;
             display: flex;
-    
+
             .tituloBanner {
                 width: 100%;
                 height: auto;
                 display: flex;
                 align-items: center;
-                justify-content: flex-start;            
+                justify-content: flex-start;
                 flex-wrap: wrap;
                 padding: 20px;
                 margin: 20px;
-    
+
                 .letraPromocion {
                     text-align: center;
                     font-size: 35px;
@@ -471,8 +476,8 @@
                 }
             }
         }
-    
-    
+
+
         .promocionesHelado {
             width: 100%;
             height: auto;
@@ -480,33 +485,33 @@
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
-    
+
             .cardPromocion {
                 width: auto;
                 height: auto;
                 margin: 20px;
                 padding: 20px;
-    
+
                 .promocionImg {
                     width: 350px;
                     height: 350px;
                     border-radius: 100%;
                     transition: all .3s ease-in-out;
-    
-    
+
+
                 }
-    
-    
+
+
                 .promocionImg:hover {
                     transform: scale(0.9);
                     transform-origin: center center;
                 }
-    
+
                 .titlePromocion {
                     font-size: 20px;
                     line-height: 30px;
                 }
-    
+
                 .lineaPromocion {
                     width: 110px;
                     height: 3px;
@@ -515,9 +520,9 @@
                 }
             }
         }
-    
+
         .pedidos {
-            width: 400px;
+            width: 100%;
             height: 300px;
             display: flex;
             justify-content: center;
@@ -527,32 +532,32 @@
             margin: 50px 0 50px;
             background-image: url("../img/fondoPedidos.jpg");
             background-repeat: space;
-            background-attachment: fixed;
-            background-size: cover;
-        
+            background-position: center center;
+            background-repeat: contain;
+
             .textoPedidos {
                 width: 200px;
                 height: 100px;
                 padding: 5px;
                 margin: 5px;
-        
+
                 .trasparente {
                     color: transparent;
                     -webkit-text-stroke: 1px white;
                 }
-        
+
                 .color {
                     color: white;
                 }
-        
+
                 .letraPedidos {
                     text-align: center;
                     font-size: 27px;
-                    letter-spacing: 7px;                   
-                    font-family: 'Alfa Slab One', cursive;    
+                    letter-spacing: 7px;
+                    font-family: 'Alfa Slab One', cursive;
                 }
             }
-            
+
             .contedorLogoPedidos {
                 width: auto;
                 height: 100px;
@@ -562,7 +567,7 @@
                 align-items: center;
                 padding: 10px;
                 margin: 10px;
-        
+
                 .pedidoLogo {
                     border-radius: 20px;
                     width: 75px;
@@ -570,36 +575,41 @@
                 }
             }
         }
-        
-    
-    
-    
-    
+
+
+
+
+
     }
 }
-@media (max-width:320px){
+
+@media (max-width:320px) {
     body {
-        background-image: url("../img/back.jpg");   
-       
-    
+        background-image: url("../img/back.jpg");
+
+        header {
+            width: 100%;
+            height: 91px;
+        }
+
         .imgBannerPromociones {
             background-image: url("../img/mobile/mobileBanner.jpg");
-            background-position: center center;           
+            background-position: center center;
             width: 100%;
             height: 150px;
             padding: 10px 0 10 0;
             display: flex;
-    
+
             .tituloBanner {
                 width: 100%;
                 height: auto;
                 display: flex;
                 align-items: center;
-                justify-content: flex-start;            
+                justify-content: flex-start;
                 flex-wrap: wrap;
                 padding: 20px;
                 margin: 20px;
-    
+
                 .letraPromocion {
                     text-align: center;
                     font-size: 20px;
@@ -610,8 +620,8 @@
                 }
             }
         }
-    
-    
+
+
         .promocionesHelado {
             width: 100%;
             height: auto;
@@ -619,33 +629,33 @@
             justify-content: center;
             align-content: center;
             flex-wrap: wrap;
-    
+
             .cardPromocion {
                 width: auto;
                 height: auto;
                 margin: 20px;
                 padding: 20px;
-    
+
                 .promocionImg {
                     width: 250px;
                     height: 250px;
                     border-radius: 100%;
                     transition: all .3s ease-in-out;
-    
-    
+
+
                 }
-    
-    
+
+
                 .promocionImg:hover {
                     transform: scale(0.9);
                     transform-origin: center center;
                 }
-    
+
                 .titlePromocion {
                     font-size: 20px;
                     line-height: 30px;
                 }
-    
+
                 .lineaPromocion {
                     width: 110px;
                     height: 3px;
@@ -654,9 +664,9 @@
                 }
             }
         }
-    
+
         .pedidos {
-            width: 300px;
+            width: 100%;
             height: 280px;
             display: flex;
             justify-content: center;
@@ -665,32 +675,32 @@
             align-items: center;
             margin: 50px 0 50px;
             background-image: url("../img/mobile/fondoPedidos.jpg");
-            background-position: center center;   
-            background-attachment: fixed;           
-        
+            background-position: center center;
+            background-repeat: contain;
+
             .textoPedidos {
                 width: 200px;
                 height: 100px;
                 padding: 5px;
                 margin: 5px;
-        
+
                 .trasparente {
                     color: transparent;
                     -webkit-text-stroke: 1px white;
                 }
-        
+
                 .color {
                     color: white;
                 }
-        
+
                 .letraPedidos {
                     text-align: center;
                     font-size: 27px;
-                    letter-spacing: 7px;                   
-                    font-family: 'Alfa Slab One', cursive;    
+                    letter-spacing: 7px;
+                    font-family: 'Alfa Slab One', cursive;
                 }
             }
-            
+
             .contedorLogoPedidos {
                 width: 250px;
                 height: 100px;
@@ -700,7 +710,7 @@
                 align-items: center;
                 padding: 10px;
                 margin: 10px;
-        
+
                 .pedidoLogo {
                     border-radius: 20px;
                     width: 75px;
@@ -708,10 +718,10 @@
                 }
             }
         }
-        
-    
-    
-    
-    
+
+
+
+
+
     }
 }

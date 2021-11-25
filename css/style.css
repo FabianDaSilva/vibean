@@ -1941,8 +1941,8 @@ body {
           height: 150px; }
     body .imgBannerPromociones {
       background-image: url("../img/promocionesBanner.jpg");
-      background-size: center;
-      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: contain;
       width: 100%;
       height: 300px;
       padding: 10px 0 10 0;
@@ -2002,9 +2002,9 @@ body {
       align-items: center;
       margin: 50px 0 50px;
       background-image: url("../img/fondoPedidos.jpg");
-      background-repeat: space;
       background-attachment: fixed;
-      background-size: cover; }
+      background-position: center center;
+      background-repeat: contain; }
       body .pedidos .textoPedidos {
         width: 600px;
         height: 100px;
@@ -2040,7 +2040,8 @@ body {
     background-image: url("../img/back.jpg"); }
     body .imgBannerPromociones {
       background-image: url("../img/promocionesBanner.jpg");
-      background-size: center;
+      background-position: center center;
+      background-repeat: contain;
       background-attachment: fixed;
       width: 100%;
       height: 300px;
@@ -2100,9 +2101,9 @@ body {
       align-items: center;
       margin: 50px 0 50px;
       background-image: url("../img/fondoPedidos.jpg");
-      background-repeat: space;
       background-attachment: fixed;
-      background-size: cover; }
+      background-position: center center;
+      background-repeat: contain; }
       body .pedidos .textoPedidos {
         width: 580px;
         height: 157px;
@@ -2138,8 +2139,8 @@ body {
     background-image: url("../img/back.jpg"); }
     body .imgBannerPromociones {
       background-image: url("../img/promocionesBanner.jpg");
-      background-size: center;
-      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: contain;
       width: 100%;
       height: 300px;
       padding: 10px 0 10 0;
@@ -2198,9 +2199,9 @@ body {
       align-items: center;
       margin: 50px 0 50px;
       background-image: url("../img/fondoPedidos.jpg");
-      background-repeat: space;
       background-attachment: fixed;
-      background-size: cover; }
+      background-position: center center;
+      background-repeat: contain; }
       body .pedidos .textoPedidos {
         width: 580px;
         height: 157px;
@@ -2235,11 +2236,11 @@ body {
   body {
     background-image: url("../img/back.jpg"); }
     body .imgBannerPromociones {
-      background-image: url("../img/promocionesBanner.jpg");
-      background-size: center;
-      background-attachment: fixed;
+      background-image: url("../img/mobile/mobileBanner.jpg");
+      background-position: center center;
+      background-repeat: contain;
       width: 100%;
-      height: 300px;
+      height: 200px;
       padding: 10px 0 10 0;
       display: flex; }
       body .imgBannerPromociones .tituloBanner {
@@ -2287,7 +2288,7 @@ body {
           font-weight: 50px;
           background: #4e4e4e; }
     body .pedidos {
-      width: 400px;
+      width: 100%;
       height: 300px;
       display: flex;
       justify-content: center;
@@ -2297,8 +2298,8 @@ body {
       margin: 50px 0 50px;
       background-image: url("../img/fondoPedidos.jpg");
       background-repeat: space;
-      background-attachment: fixed;
-      background-size: cover; }
+      background-position: center center;
+      background-repeat: contain; }
       body .pedidos .textoPedidos {
         width: 200px;
         height: 100px;
@@ -2331,6 +2332,9 @@ body {
 @media (max-width: 320px) {
   body {
     background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%;
+      height: 91px; }
     body .imgBannerPromociones {
       background-image: url("../img/mobile/mobileBanner.jpg");
       background-position: center center;
@@ -2383,7 +2387,7 @@ body {
           font-weight: 50px;
           background: #4e4e4e; }
     body .pedidos {
-      width: 300px;
+      width: 100%;
       height: 280px;
       display: flex;
       justify-content: center;
@@ -2393,7 +2397,7 @@ body {
       margin: 50px 0 50px;
       background-image: url("../img/mobile/fondoPedidos.jpg");
       background-position: center center;
-      background-attachment: fixed; }
+      background-repeat: contain; }
       body .pedidos .textoPedidos {
         width: 200px;
         height: 100px;
