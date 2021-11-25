@@ -1,0 +1,414 @@
+.pedidosContainer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+   justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+    .textoPedidos {
+        width: 600px;
+        height: 200px;
+        padding: 20px;
+        margin: 20px;
+
+        .trasparente {
+            color: transparent;
+            -webkit-text-stroke: 1px white;
+        }
+
+        .color {
+            color: white;
+        }
+
+        .letraPedidos {
+            text-align: center;
+            font-size: 90px;
+            letter-spacing: 7px;
+            font-weight: bold;
+            font-family: 'Alfa Slab One', cursive;
+        }
+    }
+
+    .contedorLogoPedidos {
+        width: auto;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        flex-direction: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px;
+
+        .pedidoLogo {
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width:1200px){
+    .pedidosContainer {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 0 50px;
+        background-image: url("../img/fondoPedidos.jpg");
+        background-repeat: space;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+        .textoPedidos {
+            width: 500px;
+            height: 200px;
+            padding: 10px;
+            margin: 10px;
+
+            .trasparente {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+
+            .color {
+                color: white;
+            }
+
+            .letraPedidos {
+                text-align: center;
+                font-size: 60px;
+                letter-spacing: 7px;
+                font-weight: bold;
+                font-family: 'Alfa Slab One', cursive;
+
+
+
+            }
+        }
+
+        .contedorLogoPedidos {
+            width: auto;
+            height: 260px;
+            display: flex;
+            justify-content: center;
+            flex-direction: center;
+            align-items: center;
+            padding: 20px;
+            margin: 20px;
+
+            .pedidoLogo {
+                border-radius: 20px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+
+}
+@media (max-width:1024){
+    .pedidosContainer {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 0 50px;
+        background-image: url("../img/fondoPedidos.jpg");
+        background-repeat: space;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+        .textoPedidos {
+            width: 580px;
+            height: 157px;
+            padding: 10px;
+            margin: 10px;
+
+            .trasparente {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+
+            .color {
+                color: white;
+            }
+
+            .letraPedidos {
+                text-align: center;
+                font-size: 58px;
+                letter-spacing: 7px;
+                font-weight: bold;
+                font-family: 'Alfa Slab One', cursive;
+
+
+
+            }
+        }
+
+        .contedorLogoPedidos {
+            width: auto;
+            height: 260px;
+            display: flex;
+            justify-content: center;
+            flex-direction: center;
+            align-items: center;
+            padding: 20px;
+            margin: 20px;
+
+            .pedidoLogo {
+                border-radius: 20px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+
+}
+@media (max-width:768px){
+    .pedidosContainer {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 0 50px;
+        background-image: url("../img/fondoPedidos.jpg");
+        background-repeat: space;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+        .textoPedidos {
+            width: 580px;
+            height: 157px;
+            padding: 5px;
+            margin: 5px;
+
+            .trasparente {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+
+            .color {
+                color: white;
+            }
+
+            .letraPedidos {
+                text-align: center;
+                font-size: 48px;
+                letter-spacing: 7px;
+                font-weight: bold;
+                font-family: 'Alfa Slab One', cursive;    
+            }
+        }
+        
+        .contedorLogoPedidos {
+            width: auto;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: center;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+
+            .pedidoLogo {
+                border-radius: 20px;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+}
+@media (max-width:600px){
+    .pedidosContainer {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 0 50px;
+        background-image: url("../img/fondoPedidos.jpg");
+        background-repeat: space;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+        .textoPedidos {
+            width: 480px;
+            height: 157px;
+            padding: 5px;
+            margin: 5px;
+
+            .trasparente {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+
+            .color {
+                color: white;
+            }
+
+            .letraPedidos {
+                text-align: center;
+                font-size: 48px;
+                letter-spacing: 7px;
+                font-weight: bold;
+                font-family: 'Alfa Slab One', cursive;    
+            }
+        }
+        
+        .contedorLogoPedidos {
+            width: auto;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: center;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+
+            .pedidoLogo {
+                border-radius: 20px;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+}
+@media (max-width:480){
+    .pedidosContainer {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 0 50px;
+        background-image: url("../img/fondoPedidos.jpg");
+        background-repeat: space;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+        .textoPedidos {
+            width: 200px;
+            height: 100px;
+            padding: 5px;
+            margin: 5px;
+
+            .trasparente {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+
+            .color {
+                color: white;
+            }
+
+            .letraPedidos {
+                text-align: center;
+                font-size: 27px;
+                letter-spacing: 7px;                   
+                font-family: 'Alfa Slab One', cursive;    
+            }
+        }
+        
+        .contedorLogoPedidos {
+            width: auto;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: center;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+
+            .pedidoLogo {
+                border-radius: 20px;
+                width: 75px;
+                height: 75px;
+            }
+        }
+    }
+}
+@media (max-width:320px){
+    .pedidosContainer {
+        width: 300px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 0 50px;
+        background-image: url("../img/fondoPedidos.jpg");
+        background-repeat: space;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+        .textoPedidos {
+            width: 200px;
+            height: 100px;
+            padding: 5px;
+            margin: 5px;
+
+            .trasparente {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+
+            .color {
+                color: white;
+            }
+
+            .letraPedidos {
+                text-align: center;
+                font-size: 27px;
+                letter-spacing: 7px;                   
+                font-family: 'Alfa Slab One', cursive;    
+            }
+        }
+        
+        .contedorLogoPedidos {
+            width: 250px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: center;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+
+            .pedidoLogo {
+                border-radius: 20px;
+                width: 75px;
+                height: 75px;
+            }
+        }
+    }
+
+}

@@ -77,73 +77,20 @@ body {
             }
 
             .titlePromocion {
-                font-size: 20px;
+                font-size: 40px;
                 line-height: 30px;
+                letter-spacing: 1px;
+                font-family: 'Alfa Slab One', cursive;
+                color: #e36414;
+                
             }
 
             .lineaPromocion {
-                width: 110px;
-                height: 3px;
+                width: 300px;
+                height: 4px;
                 font-weight: 50px;
-                background: #4e4e4e;
-            }
-        }
-    }
-
-    .pedidos {
-        width: 100%;
-        height: 600px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        align-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 50px 0 50px;
-        background-image: url("../img/fondoPedidos.jpg");
-        background-repeat: space;
-        background-attachment: fixed;
-        background-size: cover;
-
-        .textoPedidos {
-            width: 600px;
-            height: 100px;
-            padding: 20px;
-            margin: 20px;
-
-
-            .trasparente {
-                color: transparent;
-                -webkit-text-stroke: 1px white;
-            }
-
-            .color {
-                color: white;
-            }
-
-            .letraPedidos {
-                text-align: center;
-                font-size: 90px;
-                letter-spacing: 7px;
-                font-weight: bold;
-                font-family: 'Alfa Slab One', cursive;
-            }
-        }
-
-        .contedorLogoPedidos {
-            width: auto;
-            height: 260px;
-            display: flex;
-            justify-content: center;
-            flex-direction: center;
-            align-items: center;
-            padding: 20px;
-            margin: 20px;
-
-            .pedidoLogo {
-                border-radius: 20px;
-                width: 200px;
-                height: 200px;
+                background:rgb(37, 37, 41);
+                
             }
         }
     }

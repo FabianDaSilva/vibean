@@ -19,7 +19,7 @@
 
         .imgBannerPromociones {
             background-image: url("../img/promocionesBanner.jpg");
-            background-position: center center; 
+             background-position: center center; 
             background-repeat: contain; 
             width: 100%;
             height: 300px;
@@ -91,65 +91,7 @@
             }
         }
 
-        .pedidos {
-            width: 100%;
-            height: 600px;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            align-content: center;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 50px 0 50px;
-            background-image: url("../img/fondoPedidos.jpg");
-            background-attachment: fixed;
-            background-position: center center; 
-            background-repeat: contain; 
-           
-
-            .textoPedidos {
-                width: 600px;
-                height: 100px;
-                padding: 20px;
-                margin: 20px;
-
-
-                .trasparente {
-                    color: transparent;
-                    -webkit-text-stroke: 1px white;
-                }
-
-                .color {
-                    color: white;
-                }
-
-                .letraPedidos {
-                    text-align: center;
-                    font-size: 90px;
-                    letter-spacing: 7px;
-                    font-weight: bold;
-                    font-family: 'Alfa Slab One', cursive;
-                }
-            }
-
-            .contedorLogoPedidos {
-                width: auto;
-                height: 260px;
-                display: flex;
-                justify-content: center;
-                flex-direction: center;
-                align-items: center;
-                padding: 20px;
-                margin: 20px;
-
-                .pedidoLogo {
-                    border-radius: 20px;
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-        }
-
+     
 
 
 
@@ -237,61 +179,6 @@
             }
         }
 
-        .pedidos {
-            width: 100%;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 50px 0 50px;
-            background-image: url("../img/fondoPedidos.jpg");           
-            background-attachment: fixed;
-            background-position: center center; 
-            background-repeat: contain; 
-
-            .textoPedidos {
-                width: 580px;
-                height: 157px;
-                padding: 5px;
-                margin: 5px;
-
-                .trasparente {
-                    color: transparent;
-                    -webkit-text-stroke: 1px white;
-                }
-
-                .color {
-                    color: white;
-                }
-
-                .letraPedidos {
-                    text-align: center;
-                    font-size: 48px;
-                    letter-spacing: 7px;
-                    font-weight: bold;
-                    font-family: 'Alfa Slab One', cursive;
-                }
-            }
-
-            .contedorLogoPedidos {
-                width: auto;
-                height: 100px;
-                display: flex;
-                justify-content: center;
-                flex-direction: center;
-                align-items: center;
-                padding: 10px;
-                margin: 10px;
-
-                .pedidoLogo {
-                    border-radius: 20px;
-                    width: 100px;
-                    height: 100px;
-                }
-            }
-        }
 
 
 
@@ -375,62 +262,6 @@
                     height: 3px;
                     font-weight: 50px;
                     background: #4e4e4e;
-                }
-            }
-        }
-
-        .pedidos {
-            width: 100%;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 50px 0 50px;
-            background-image: url("../img/fondoPedidos.jpg");
-            background-attachment: fixed;
-            background-position: center center; 
-            background-repeat: contain; 
-
-            .textoPedidos {
-                width: 580px;
-                height: 157px;
-                padding: 5px;
-                margin: 5px;
-
-                .trasparente {
-                    color: transparent;
-                    -webkit-text-stroke: 1px white;
-                }
-
-                .color {
-                    color: white;
-                }
-
-                .letraPedidos {
-                    text-align: center;
-                    font-size: 48px;
-                    letter-spacing: 7px;
-                    font-weight: bold;
-                    font-family: 'Alfa Slab One', cursive;
-                }
-            }
-
-            .contedorLogoPedidos {
-                width: auto;
-                height: 100px;
-                display: flex;
-                justify-content: center;
-                flex-direction: center;
-                align-items: center;
-                padding: 10px;
-                margin: 10px;
-
-                .pedidoLogo {
-                    border-radius: 20px;
-                    width: 100px;
-                    height: 100px;
                 }
             }
         }
@@ -521,61 +352,7 @@
             }
         }
 
-        .pedidos {
-            width: 100%;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 50px 0 50px;
-            background-image: url("../img/fondoPedidos.jpg");
-            background-repeat: space;
-            background-position: center center;
-            background-repeat: contain;
-
-            .textoPedidos {
-                width: 200px;
-                height: 100px;
-                padding: 5px;
-                margin: 5px;
-
-                .trasparente {
-                    color: transparent;
-                    -webkit-text-stroke: 1px white;
-                }
-
-                .color {
-                    color: white;
-                }
-
-                .letraPedidos {
-                    text-align: center;
-                    font-size: 27px;
-                    letter-spacing: 7px;
-                    font-family: 'Alfa Slab One', cursive;
-                }
-            }
-
-            .contedorLogoPedidos {
-                width: auto;
-                height: 100px;
-                display: flex;
-                justify-content: center;
-                flex-direction: center;
-                align-items: center;
-                padding: 10px;
-                margin: 10px;
-
-                .pedidoLogo {
-                    border-radius: 20px;
-                    width: 75px;
-                    height: 75px;
-                }
-            }
-        }
-
+  
 
 
 
@@ -661,60 +438,6 @@
                     height: 3px;
                     font-weight: 50px;
                     background: #4e4e4e;
-                }
-            }
-        }
-
-        .pedidos {
-            width: 100%;
-            height: 280px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            margin: 50px 0 50px;
-            background-image: url("../img/mobile/fondoPedidos.jpg");
-            background-position: center center;
-            background-repeat: contain;
-
-            .textoPedidos {
-                width: 200px;
-                height: 100px;
-                padding: 5px;
-                margin: 5px;
-
-                .trasparente {
-                    color: transparent;
-                    -webkit-text-stroke: 1px white;
-                }
-
-                .color {
-                    color: white;
-                }
-
-                .letraPedidos {
-                    text-align: center;
-                    font-size: 27px;
-                    letter-spacing: 7px;
-                    font-family: 'Alfa Slab One', cursive;
-                }
-            }
-
-            .contedorLogoPedidos {
-                width: 250px;
-                height: 100px;
-                display: flex;
-                justify-content: center;
-                flex-direction: center;
-                align-items: center;
-                padding: 10px;
-                margin: 10px;
-
-                .pedidoLogo {
-                    border-radius: 20px;
-                    width: 75px;
-                    height: 75px;
                 }
             }
         }

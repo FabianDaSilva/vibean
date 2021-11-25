@@ -96,49 +96,6 @@ body .sabores {
       height: 400px;
       border-radius: 200px; }
 
-body .pedidos {
-  width: 100%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  flex-direction: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 50px 0 50px;
-  background-image: url("../img/fondoPedidos.jpg");
-  background-repeat: space;
-  background-attachment: fixed;
-  background-size: cover; }
-  body .pedidos .textoPedidos {
-    width: 600px;
-    height: 200px;
-    padding: 20px;
-    margin: 20px; }
-    body .pedidos .textoPedidos .trasparente {
-      color: transparent;
-      -webkit-text-stroke: 1px white; }
-    body .pedidos .textoPedidos .color {
-      color: white; }
-    body .pedidos .textoPedidos .letraPedidos {
-      text-align: center;
-      font-size: 90px;
-      letter-spacing: 7px;
-      font-weight: bold;
-      font-family: 'Alfa Slab One', cursive; }
-  body .pedidos .contedorLogoPedidos {
-    width: auto;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    align-items: center;
-    padding: 20px;
-    margin: 20px; }
-    body .pedidos .contedorLogoPedidos .pedidoLogo {
-      border-radius: 20px;
-      width: 200px;
-      height: 200px; }
-
 body .tituloLocalIndex {
   font-size: 40px;
   font-family: 'Alfa Slab One', cursive;
@@ -248,49 +205,6 @@ body .fondoSabores {
         padding: 10px;
         margin: 10px; }
 
-body .pedidos {
-  width: 100%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  flex-direction: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 50px 0 50px;
-  background-image: url("../img/fondoPedidos.jpg");
-  background-repeat: space;
-  background-attachment: fixed;
-  background-size: cover; }
-  body .pedidos .textoPedidos {
-    width: 600px;
-    height: 200px;
-    padding: 20px;
-    margin: 20px; }
-    body .pedidos .textoPedidos .trasparente {
-      color: transparent;
-      -webkit-text-stroke: 1px white; }
-    body .pedidos .textoPedidos .color {
-      color: white; }
-    body .pedidos .textoPedidos .letraPedidos {
-      text-align: center;
-      font-size: 90px;
-      letter-spacing: 7px;
-      font-weight: bold;
-      font-family: 'Alfa Slab One', cursive; }
-  body .pedidos .contedorLogoPedidos {
-    width: auto;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    align-items: center;
-    padding: 20px;
-    margin: 20px; }
-    body .pedidos .contedorLogoPedidos .pedidoLogo {
-      border-radius: 20px;
-      width: 200px;
-      height: 200px; }
-
 body {
   background-image: url("../img/back.jpg"); }
   body header {
@@ -346,56 +260,16 @@ body {
         transform: scale(0.9);
         transform-origin: center center; }
       body .promocionesHelado .cardPromocion .titlePromocion {
-        font-size: 20px;
-        line-height: 30px; }
+        font-size: 40px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-family: 'Alfa Slab One', cursive;
+        color: #e36414; }
       body .promocionesHelado .cardPromocion .lineaPromocion {
-        width: 110px;
-        height: 3px;
+        width: 300px;
+        height: 4px;
         font-weight: 50px;
-        background: #4e4e4e; }
-  body .pedidos {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/fondoPedidos.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 600px;
-      height: 100px;
-      padding: 20px;
-      margin: 20px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 90px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 260px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 20px;
-      margin: 20px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 200px;
-        height: 200px; }
+        background: #252529; }
 
 body {
   background-image: url("../img/back.jpg"); }
@@ -413,60 +287,42 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 500px;
+    height: 200px;
     padding: 10px 0 10 0; }
   body .cardNosotros {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
-    body .cardNosotros .cardNosotrosImg .imgNosotros {
-      width: 600px;
-      overflow: hidden;
-      margin: 20px;
-      padding: 20px; }
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+    padding: 10px; }
+    body .cardNosotros .cardNosotrosImg {
+      width: auto;
+      height: auto; }
+      body .cardNosotros .cardNosotrosImg .imgNosotros {
+        width: 650px;
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 100%; }
     body .cardNosotros .contenedorParrafo {
       width: 574px;
-      height: 350px;
-      padding: 20px;
-      margin: 20px;
-      position: relative;
-      top: 70px; }
-
-.contenedorGaleria {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: center;
-  margin: 50px 10px;
-  padding: 10px;
-  border: 1px 0px 0px 0px solid gray; }
-  .contenedorGaleria .galeria {
-    display: flex;
-    padding: 5px;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 80%; }
-    .contenedorGaleria .galeria .column {
-      flex: 5%;
-      padding: 5px; }
-      .contenedorGaleria .galeria .column .imgGaleria {
-        display: block;
-        margin: 0 auto;
-        margin-top: 5px;
-        width: 100%;
-        transition: all .3s ease-in-out; }
-      .contenedorGaleria .galeria .column .imgGaleria:hover {
-        transform: scale(0.9);
-        transform-origin: center center; }
-  @media (max-width: 800px) {
-    .contenedorGaleria .column {
-      flex: 50%; } }
-  @media (max-width: 600px) {
-    .contenedorGaleria .column {
-      flex: 100%; } }
+      height: 650px;
+      padding: 40px;
+      margin: 20px; }
+  body #imgGaleriaN {
+    transition: all .3s ease-in-out; }
+  body #imgGaleriaN:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(0.9);
+    transform-origin: center center; }
 
 body {
-  background-image: url("../img/back.jpg"); }
+  background-image: url("../img/back.jpg");
+  /* Estilos info */
+  /* Estilos formulario */ }
   body header {
     width: 100%; }
     body header .contenedorLogo {
@@ -480,38 +336,381 @@ body {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 500px;
+    height: 300px;
     padding: 10px 0 10 0; }
-  body .formularioCentro {
+  body .contenedorForm {
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+  body .titleForm {
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: left;
+    margin-bottom: 25px;
+    color: #212529; }
+  body .contenido {
     display: flex;
+    width: 100%;
+    overflow: hidden; }
+  body .contenido .info,
+  body .contenido .formulario {
+    width: 70%; }
+  body .info {
+    padding-left: 10px; }
+  body .info .col {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
     align-items: center;
-    justify-content: center;
-    margin: 50px 0px;
-    padding: 0 50px 100px 0; }
-    body .formularioCentro .formulario {
-      width: 400px;
-      height: 600px;
-      padding: 20px;
+    flex-wrap: wrap; }
+  body .infor .col .icono {
+    color: #e36414;
+    margin-right: 10px; }
+  body .info .col p {
+    font-family: 'Alfa Slab One', cursive;
+    color: #212529; }
+  body .formulario {
+    padding-left: 10px; }
+  body .formulario input[type='text'],
+  body .formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #999;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    outline: 0; }
+  body .formulario textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 150px; }
+  body .formulario input[type='text']:focus,
+  body .formulario textarea:focus {
+    border: 1px solid #e36414; }
+  body .formulario Button {
+    padding: 12px 13px;
+    border: trasparent;
+    background: #e36414;
+    color: #fff;
+    cursor: pointer;
+    float: right; }
+
+.pedidosContainer {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0 50px;
+  background-image: url("../img/fondoPedidos.jpg");
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; }
+  .pedidosContainer .textoPedidos {
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px; }
+    .pedidosContainer .textoPedidos .trasparente {
+      color: transparent;
+      -webkit-text-stroke: 1px white; }
+    .pedidosContainer .textoPedidos .color {
+      color: white; }
+    .pedidosContainer .textoPedidos .letraPedidos {
       text-align: center;
-      float: center; }
-      body .formularioCentro .formulario .selectForm {
-        width: 400px;
-        margin: 10px; }
-      body .formularioCentro .formulario .input {
-        width: 400px;
-        margin: 10px; }
-      body .formularioCentro .formulario .textarea {
-        width: 400px;
-        margin: 10px; }
-      body .formularioCentro .formulario .label {
-        font-size: 16px; }
-    body .formularioCentro .contenedorParrafo {
-      width: 474px;
-      height: auto;
-      padding: 50px;
-      margin: 20px;
-      position: relative;
-      top: 70px; }
+      font-size: 90px;
+      letter-spacing: 7px;
+      font-weight: bold;
+      font-family: 'Alfa Slab One', cursive; }
+  .pedidosContainer .contedorLogoPedidos {
+    width: auto;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px; }
+    .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+      border-radius: 20px;
+      width: 200px;
+      height: 200px; }
+
+@media (max-width: 1200px) {
+  .pedidosContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; }
+    .pedidosContainer .textoPedidos {
+      width: 500px;
+      height: 200px;
+      padding: 10px;
+      margin: 10px; }
+      .pedidosContainer .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      .pedidosContainer .textoPedidos .color {
+        color: white; }
+      .pedidosContainer .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 60px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    .pedidosContainer .contedorLogoPedidos {
+      width: auto;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 20px;
+      margin: 20px; }
+      .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 150px;
+        height: 150px; } }
+
+@media (max-width: 1024) {
+  .pedidosContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; }
+    .pedidosContainer .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 10px;
+      margin: 10px; }
+      .pedidosContainer .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      .pedidosContainer .textoPedidos .color {
+        color: white; }
+      .pedidosContainer .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 58px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    .pedidosContainer .contedorLogoPedidos {
+      width: auto;
+      height: 260px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 20px;
+      margin: 20px; }
+      .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 150px;
+        height: 150px; } }
+
+@media (max-width: 768px) {
+  .pedidosContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; }
+    .pedidosContainer .textoPedidos {
+      width: 580px;
+      height: 157px;
+      padding: 5px;
+      margin: 5px; }
+      .pedidosContainer .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      .pedidosContainer .textoPedidos .color {
+        color: white; }
+      .pedidosContainer .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    .pedidosContainer .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px; } }
+
+@media (max-width: 600px) {
+  .pedidosContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; }
+    .pedidosContainer .textoPedidos {
+      width: 480px;
+      height: 157px;
+      padding: 5px;
+      margin: 5px; }
+      .pedidosContainer .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      .pedidosContainer .textoPedidos .color {
+        color: white; }
+      .pedidosContainer .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 48px;
+        letter-spacing: 7px;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive; }
+    .pedidosContainer .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 100px;
+        height: 100px; } }
+
+@media (max-width: 480) {
+  .pedidosContainer {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; }
+    .pedidosContainer .textoPedidos {
+      width: 200px;
+      height: 100px;
+      padding: 5px;
+      margin: 5px; }
+      .pedidosContainer .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      .pedidosContainer .textoPedidos .color {
+        color: white; }
+      .pedidosContainer .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 7px;
+        font-family: 'Alfa Slab One', cursive; }
+    .pedidosContainer .contedorLogoPedidos {
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 75px;
+        height: 75px; } }
+
+@media (max-width: 320px) {
+  .pedidosContainer {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0 50px;
+    background-image: url("../img/fondoPedidos.jpg");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center; }
+    .pedidosContainer .textoPedidos {
+      width: 200px;
+      height: 100px;
+      padding: 5px;
+      margin: 5px; }
+      .pedidosContainer .textoPedidos .trasparente {
+        color: transparent;
+        -webkit-text-stroke: 1px white; }
+      .pedidosContainer .textoPedidos .color {
+        color: white; }
+      .pedidosContainer .textoPedidos .letraPedidos {
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 7px;
+        font-family: 'Alfa Slab One', cursive; }
+    .pedidosContainer .contedorLogoPedidos {
+      width: 250px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px; }
+      .pedidosContainer .contedorLogoPedidos .pedidoLogo {
+        border-radius: 20px;
+        width: 75px;
+        height: 75px; } }
 
 /* Index */
 @media (max-width: 1200px) {
@@ -591,48 +790,6 @@ body {
         width: 320px;
         height: 320px;
         border-radius: 200px; }
-  body .pedidos {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/saboresBanner.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 60px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 260px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 20px;
-      margin: 20px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 150px;
-        height: 150px; }
   body .locales {
     width: 100%;
     display: flex;
@@ -738,48 +895,6 @@ body {
         width: 270px;
         height: 270px;
         border-radius: 200px; }
-  body .pedidos {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/saboresBanner.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 58px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 260px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 20px;
-      margin: 20px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 150px;
-        height: 150px; }
   body .locales {
     width: 100%;
     display: flex;
@@ -874,48 +989,6 @@ body {
         width: 270px;
         height: 270px;
         border-radius: 200px; }
-  body .pedidos {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/saboresBanner.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 5px;
-      margin: 5px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 48px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 100px;
-        height: 100px; }
   body .locales {
     width: 100%;
     height: auto;
@@ -1011,48 +1084,6 @@ body {
         width: 270px;
         height: 270px;
         border-radius: 200px; }
-  body .pedidos {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/saboresBanner.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 5px;
-      margin: 5px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 48px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 100px;
-        height: 100px; }
   body .locales {
     width: 100%;
     height: auto;
@@ -1154,47 +1185,6 @@ body {
           width: 240px;
           height: 240px;
           border-radius: 200px; }
-    body .pedidos {
-      width: 400px;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/saboresBanner.jpg");
-      background-repeat: space;
-      background-attachment: fixed;
-      background-size: cover; }
-      body .pedidos .textoPedidos {
-        width: 200px;
-        height: 100px;
-        padding: 5px;
-        margin: 5px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 27px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: auto;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 75px;
-          height: 75px; }
     body .locales {
       width: 100%;
       height: auto;
@@ -1296,47 +1286,6 @@ body {
           width: 200px;
           height: 200px;
           border-radius: 200px; }
-    body .pedidos {
-      width: 300px;
-      height: 250px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/saboresBanner.jpg");
-      background-repeat: space;
-      background-attachment: fixed;
-      background-size: cover; }
-      body .pedidos .textoPedidos {
-        width: 200px;
-        height: 100px;
-        padding: 5px;
-        margin: 5px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 27px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: 250px;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 75px;
-          height: 75px; }
     body .locales {
       width: 250px;
       height: auto;
@@ -1361,6 +1310,592 @@ body {
           width: 155px;
           height: 3px;
           margin-left: 34px;
+          background: #4e4e4e; } }
+
+@media (max-width: 1200px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      background-image: url("../img/bannerHelado.jpg");
+      background-size: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      height: 200px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 650px;
+          height: auto;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      background-image: url("../img/bannerHelado.jpg");
+      background-size: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 550px;
+          height: auto;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      background-image: url("../img/bannerHelado.jpg");
+      background-size: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 450px;
+          height: auto;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      background-image: url("../img/bannerHelado.jpg");
+      background-size: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 450px;
+          height: auto;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 480px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      background-image: url("../img/bannerHelado.jpg");
+      background-size: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 450px;
+          height: auto;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 320px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%;
+      height: 90px; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      background-image: url("../img/mobile/mobileBanner.jpg");
+      background-size: center center;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 280px;
+          height: auto;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px;
+        font-size: 13px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerPromociones {
+      background-image: url("../img/promocionesBanner.jpg");
+      background-position: center center;
+      background-repeat: contain;
+      width: 100%;
+      height: 300px;
+      padding: 10px 0 10 0;
+      display: flex; }
+      body .imgBannerPromociones .tituloBanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px; }
+        body .imgBannerPromociones .tituloBanner .letraPromocion {
+          text-align: center;
+          font-size: 50px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive;
+          color: white;
+          -webkit-text-stroke: 2px black; }
+    body .promocionesHelado {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap; }
+      body .promocionesHelado .cardPromocion {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        padding: 20px; }
+        body .promocionesHelado .cardPromocion .promocionImg {
+          width: 550px;
+          height: 550px;
+          border-radius: 100%;
+          transition: all .3s ease-in-out; }
+        body .promocionesHelado .cardPromocion .promocionImg:hover {
+          transform: scale(0.9);
+          transform-origin: center center; }
+        body .promocionesHelado .cardPromocion .titlePromocion {
+          font-size: 20px;
+          line-height: 30px; }
+        body .promocionesHelado .cardPromocion .lineaPromocion {
+          width: 110px;
+          height: 3px;
+          font-weight: 50px;
+          background: #4e4e4e; } }
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body .imgBannerPromociones {
+      background-image: url("../img/promocionesBanner.jpg");
+      background-position: center center;
+      background-repeat: contain;
+      background-attachment: fixed;
+      width: 100%;
+      height: 300px;
+      padding: 10px 0 10 0;
+      display: flex; }
+      body .imgBannerPromociones .tituloBanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px; }
+        body .imgBannerPromociones .tituloBanner .letraPromocion {
+          text-align: center;
+          font-size: 50px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive;
+          color: white;
+          -webkit-text-stroke: 2px black; }
+    body .promocionesHelado {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap; }
+      body .promocionesHelado .cardPromocion {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        padding: 20px; }
+        body .promocionesHelado .cardPromocion .promocionImg {
+          width: 450px;
+          height: 450px;
+          border-radius: 100%;
+          transition: all .3s ease-in-out; }
+        body .promocionesHelado .cardPromocion .promocionImg:hover {
+          transform: scale(0.9);
+          transform-origin: center center; }
+        body .promocionesHelado .cardPromocion .titlePromocion {
+          font-size: 20px;
+          line-height: 30px; }
+        body .promocionesHelado .cardPromocion .lineaPromocion {
+          width: 110px;
+          height: 3px;
+          font-weight: 50px;
+          background: #4e4e4e; } }
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body .imgBannerPromociones {
+      background-image: url("../img/promocionesBanner.jpg");
+      background-position: center center;
+      background-repeat: contain;
+      width: 100%;
+      height: 300px;
+      padding: 10px 0 10 0;
+      display: flex; }
+      body .imgBannerPromociones .tituloBanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px; }
+        body .imgBannerPromociones .tituloBanner .letraPromocion {
+          text-align: center;
+          font-size: 50px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive;
+          color: white;
+          -webkit-text-stroke: 2px black; }
+    body .promocionesHelado {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap; }
+      body .promocionesHelado .cardPromocion {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        padding: 20px; }
+        body .promocionesHelado .cardPromocion .promocionImg {
+          width: 400px;
+          height: 400px;
+          border-radius: 100%;
+          transition: all .3s ease-in-out; }
+        body .promocionesHelado .cardPromocion .promocionImg:hover {
+          transform: scale(0.9);
+          transform-origin: center center; }
+        body .promocionesHelado .cardPromocion .titlePromocion {
+          font-size: 20px;
+          line-height: 30px; }
+        body .promocionesHelado .cardPromocion .lineaPromocion {
+          width: 110px;
+          height: 3px;
+          font-weight: 50px;
+          background: #4e4e4e; } }
+
+@media (max-width: 480px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body .imgBannerPromociones {
+      background-image: url("../img/mobile/mobileBanner.jpg");
+      background-position: center center;
+      background-repeat: contain;
+      width: 100%;
+      height: 200px;
+      padding: 10px 0 10 0;
+      display: flex; }
+      body .imgBannerPromociones .tituloBanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px; }
+        body .imgBannerPromociones .tituloBanner .letraPromocion {
+          text-align: center;
+          font-size: 35px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive;
+          color: white;
+          -webkit-text-stroke: 2px black; }
+    body .promocionesHelado {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap; }
+      body .promocionesHelado .cardPromocion {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        padding: 20px; }
+        body .promocionesHelado .cardPromocion .promocionImg {
+          width: 350px;
+          height: 350px;
+          border-radius: 100%;
+          transition: all .3s ease-in-out; }
+        body .promocionesHelado .cardPromocion .promocionImg:hover {
+          transform: scale(0.9);
+          transform-origin: center center; }
+        body .promocionesHelado .cardPromocion .titlePromocion {
+          font-size: 20px;
+          line-height: 30px; }
+        body .promocionesHelado .cardPromocion .lineaPromocion {
+          width: 110px;
+          height: 3px;
+          font-weight: 50px;
+          background: #4e4e4e; } }
+
+@media (max-width: 320px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%;
+      height: 91px; }
+    body .imgBannerPromociones {
+      background-image: url("../img/mobile/mobileBanner.jpg");
+      background-position: center center;
+      width: 100%;
+      height: 150px;
+      padding: 10px 0 10 0;
+      display: flex; }
+      body .imgBannerPromociones .tituloBanner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px; }
+        body .imgBannerPromociones .tituloBanner .letraPromocion {
+          text-align: center;
+          font-size: 20px;
+          letter-spacing: 7px;
+          font-family: 'Alfa Slab One', cursive;
+          color: white;
+          -webkit-text-stroke: 2px black; }
+    body .promocionesHelado {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap; }
+      body .promocionesHelado .cardPromocion {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        padding: 20px; }
+        body .promocionesHelado .cardPromocion .promocionImg {
+          width: 250px;
+          height: 250px;
+          border-radius: 100%;
+          transition: all .3s ease-in-out; }
+        body .promocionesHelado .cardPromocion .promocionImg:hover {
+          transform: scale(0.9);
+          transform-origin: center center; }
+        body .promocionesHelado .cardPromocion .titlePromocion {
+          font-size: 20px;
+          line-height: 30px; }
+        body .promocionesHelado .cardPromocion .lineaPromocion {
+          width: 110px;
+          height: 3px;
+          font-weight: 50px;
           background: #4e4e4e; } }
 
 @media (max-width: 1024px) {
@@ -1432,49 +1967,7 @@ body {
           margin: 80px 40px;
           column-count: 2;
           padding: 10px;
-          margin: 10px; }
-  body .pedidos {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/fondoPedidos.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 58px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 260px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 20px;
-      margin: 20px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 150px;
-        height: 150px; } }
+          margin: 10px; } }
 
 @media (max-width: 768px) {
   body header {
@@ -1545,49 +2038,7 @@ body {
           margin: 80px 40px;
           column-count: 2;
           padding: 10px;
-          margin: 10px; }
-  body .pedidos {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/fondoPedidos.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 5px;
-      margin: 5px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 48px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 100px;
-        height: 100px; } }
+          margin: 10px; } }
 
 @media (max-width: 600px) {
   body header {
@@ -1658,49 +2109,7 @@ body {
           margin: 80px 40px;
           column-count: 2;
           padding: 10px;
-          margin: 10px; }
-  body .pedidos {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/fondoPedidos.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 580px;
-      height: 157px;
-      padding: 5px;
-      margin: 5px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 48px;
-        letter-spacing: 7px;
-        font-weight: bold;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 100px;
-        height: 100px; } }
+          margin: 10px; } }
 
 @media (max-width: 480px) {
   body header {
@@ -1772,48 +2181,7 @@ body {
           margin: 80px 40px;
           column-count: 2;
           padding: 10px;
-          margin: 10px; }
-  body .pedidos {
-    width: 400px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/fondoPedidos.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 200px;
-      height: 100px;
-      padding: 5px;
-      margin: 5px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 27px;
-        letter-spacing: 7px;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: auto;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 75px;
-        height: 75px; } }
+          margin: 10px; } }
 
 @media (max-width: 320px) {
   body header {
@@ -1885,52 +2253,13 @@ body {
           margin: 80px 40px;
           column-count: 1;
           padding: 10px;
-          margin: 10px; }
-  body .pedidos {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 0 50px;
-    background-image: url("../img/fondoPedidos.jpg");
-    background-repeat: space;
-    background-attachment: fixed;
-    background-size: cover; }
-    body .pedidos .textoPedidos {
-      width: 200px;
-      height: 100px;
-      padding: 5px;
-      margin: 5px; }
-      body .pedidos .textoPedidos .trasparente {
-        color: transparent;
-        -webkit-text-stroke: 1px white; }
-      body .pedidos .textoPedidos .color {
-        color: white; }
-      body .pedidos .textoPedidos .letraPedidos {
-        text-align: center;
-        font-size: 27px;
-        letter-spacing: 7px;
-        font-family: 'Alfa Slab One', cursive; }
-    body .pedidos .contedorLogoPedidos {
-      width: 250px;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      flex-direction: center;
-      align-items: center;
-      padding: 10px;
-      margin: 10px; }
-      body .pedidos .contedorLogoPedidos .pedidoLogo {
-        border-radius: 20px;
-        width: 75px;
-        height: 75px; } }
+          margin: 10px; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   body {
-    background-image: url("../img/back.jpg"); }
+    background-image: url("../img/back.jpg");
+    /* Estilos info */
+    /* Estilos formulario */ }
     body header {
       width: 100%; }
       body header .contenedorLogo {
@@ -1939,490 +2268,486 @@ body {
         body header .contenedorLogo .logoNav {
           width: auto;
           height: 150px; }
-    body .imgBannerPromociones {
-      background-image: url("../img/promocionesBanner.jpg");
-      background-position: center center;
-      background-repeat: contain;
+    body .imgBannerServicios {
+      background-image: url("../img/serviciosBanner.jpg");
+      background-size: cover;
+      background-attachment: fixed;
       width: 100%;
       height: 300px;
-      padding: 10px 0 10 0;
-      display: flex; }
-      body .imgBannerPromociones .tituloBanner {
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 20px;
-        margin: 20px; }
-        body .imgBannerPromociones .tituloBanner .letraPromocion {
-          text-align: center;
-          font-size: 50px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive;
-          color: white;
-          -webkit-text-stroke: 2px black; }
-    body .promocionesHelado {
-      width: 100%;
-      height: auto;
+      padding: 10px 0 10 0; }
+    body .contenedorForm {
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 40px;
+      margin: 20px auto;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+    body .titleForm {
+      font-size: 30px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: left;
+      margin-bottom: 25px;
+      color: #212529; }
+    body .contenido {
       display: flex;
-      justify-content: center;
-      align-content: center;
+      width: 100%;
+      overflow: hidden; }
+    body .contenido .info,
+    body .contenido .formulario {
+      width: 100%; }
+    body .info {
+      padding-left: 10px; }
+    body .info .col {
+      width: 100%;
+      display: flex;
+      margin-bottom: 15px;
+      align-items: center;
       flex-wrap: wrap; }
-      body .promocionesHelado .cardPromocion {
-        width: auto;
-        height: auto;
-        margin: 20px;
-        padding: 20px; }
-        body .promocionesHelado .cardPromocion .promocionImg {
-          width: 550px;
-          height: 550px;
-          border-radius: 100%;
-          transition: all .3s ease-in-out; }
-        body .promocionesHelado .cardPromocion .promocionImg:hover {
-          transform: scale(0.9);
-          transform-origin: center center; }
-        body .promocionesHelado .cardPromocion .titlePromocion {
-          font-size: 20px;
-          line-height: 30px; }
-        body .promocionesHelado .cardPromocion .lineaPromocion {
-          width: 110px;
-          height: 3px;
-          font-weight: 50px;
-          background: #4e4e4e; }
-    body .pedidos {
+    body .infor .col .icono {
+      color: #e36414;
+      margin-right: 10px; }
+    body .info .col p {
+      font-family: 'Alfa Slab One', cursive;
+      color: #212529; }
+    body .formulario {
+      padding-left: 10px; }
+    body .formulario input[type='text'],
+    body .formulario textarea {
       width: 100%;
-      height: 600px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      align-content: center;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/fondoPedidos.jpg");
-      background-attachment: fixed;
-      background-position: center center;
-      background-repeat: contain; }
-      body .pedidos .textoPedidos {
-        width: 600px;
-        height: 100px;
-        padding: 20px;
-        margin: 20px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 90px;
-          letter-spacing: 7px;
-          font-weight: bold;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: auto;
-        height: 260px;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border: 1px solid #999;
+      color: #999;
+      font-family: 'Alfa Slab One', cursive;
+      font-weight: 400;
+      outline: 0; }
+    body .formulario textarea {
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      min-height: 150px; }
+    body .formulario input[type='text']:focus,
+    body .formulario textarea:focus {
+      border: 1px solid #e36414; }
+    body .formulario Button {
+      padding: 12px 13px;
+      border: trasparent;
+      background: #e36414;
+      color: #fff;
+      cursor: pointer;
+      float: right; } }
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url("../img/back.jpg");
+    /* Estilos info */
+    /* Estilos formulario */ }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
         display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 20px;
-        margin: 20px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 200px;
-          height: 200px; } }
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerServicios {
+      background-image: url("../img/serviciosBanner.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 300px;
+      padding: 10px 0 10 0; }
+    body .contenedorForm {
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 40px;
+      margin: 20px auto;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+    body .titleForm {
+      font-size: 30px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: left;
+      margin-bottom: 25px;
+      color: #212529; }
+    body .contenido {
+      display: flex;
+      width: 100%;
+      overflow: hidden; }
+    body .contenido .info,
+    body .contenido .formulario {
+      width: 100%; }
+    body .info {
+      padding-left: 10px; }
+    body .info .col {
+      width: 100%;
+      display: flex;
+      margin-bottom: 15px;
+      align-items: center;
+      flex-wrap: wrap; }
+    body .infor .col .icono {
+      color: #e36414;
+      margin-right: 10px; }
+    body .info .col p {
+      font-family: 'Alfa Slab One', cursive;
+      color: #212529; }
+    body .formulario {
+      padding-left: 10px; }
+    body .formulario input[type='text'],
+    body .formulario textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border: 1px solid #999;
+      color: #999;
+      font-family: 'Alfa Slab One', cursive;
+      font-weight: 400;
+      outline: 0; }
+    body .formulario textarea {
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      min-height: 150px; }
+    body .formulario input[type='text']:focus,
+    body .formulario textarea:focus {
+      border: 1px solid #e36414; }
+    body .formulario Button {
+      padding: 12px 13px;
+      border: trasparent;
+      background: #e36414;
+      color: #fff;
+      cursor: pointer;
+      float: right; } }
 
 @media (max-width: 768px) {
   body {
-    background-image: url("../img/back.jpg"); }
-    body .imgBannerPromociones {
-      background-image: url("../img/promocionesBanner.jpg");
-      background-position: center center;
-      background-repeat: contain;
-      background-attachment: fixed;
-      width: 100%;
-      height: 300px;
-      padding: 10px 0 10 0;
-      display: flex; }
-      body .imgBannerPromociones .tituloBanner {
-        width: 100%;
-        height: auto;
+    background-image: url("../img/back.jpg");
+    /* Estilos info */
+    /* Estilos formulario */ }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 20px;
-        margin: 20px; }
-        body .imgBannerPromociones .tituloBanner .letraPromocion {
-          text-align: center;
-          font-size: 50px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive;
-          color: white;
-          -webkit-text-stroke: 2px black; }
-    body .promocionesHelado {
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerServicios {
+      background-image: url("../img/serviciosBanner.jpg");
+      background-size: center center;
+      background-attachment: center;
       width: 100%;
-      height: auto;
+      height: 200px;
+      padding: 10px 0 10 0; }
+    body .contenedorForm {
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 40px;
+      margin: 20px auto;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+    body .titleForm {
+      font-size: 30px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: left;
+      margin-bottom: 25px;
+      color: #212529; }
+    body .contenido {
       display: flex;
-      justify-content: center;
-      align-content: center;
+      width: 100%;
+      overflow: hidden;
       flex-wrap: wrap; }
-      body .promocionesHelado .cardPromocion {
-        width: auto;
-        height: auto;
-        margin: 20px;
-        padding: 20px; }
-        body .promocionesHelado .cardPromocion .promocionImg {
-          width: 450px;
-          height: 450px;
-          border-radius: 100%;
-          transition: all .3s ease-in-out; }
-        body .promocionesHelado .cardPromocion .promocionImg:hover {
-          transform: scale(0.9);
-          transform-origin: center center; }
-        body .promocionesHelado .cardPromocion .titlePromocion {
-          font-size: 20px;
-          line-height: 30px; }
-        body .promocionesHelado .cardPromocion .lineaPromocion {
-          width: 110px;
-          height: 3px;
-          font-weight: 50px;
-          background: #4e4e4e; }
-    body .pedidos {
+    body .contenido .info,
+    body .contenido .formulario {
+      width: 100%; }
+    body .info {
+      padding-left: 10px; }
+    body .info .col {
       width: 100%;
-      height: 300px;
       display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
+      margin-bottom: 15px;
       align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/fondoPedidos.jpg");
-      background-attachment: fixed;
-      background-position: center center;
-      background-repeat: contain; }
-      body .pedidos .textoPedidos {
-        width: 580px;
-        height: 157px;
-        padding: 5px;
-        margin: 5px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 48px;
-          letter-spacing: 7px;
-          font-weight: bold;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: auto;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 100px;
-          height: 100px; } }
+      flex-wrap: wrap; }
+    body .infor .col .icono {
+      color: #e36414;
+      margin-right: 10px; }
+    body .info .col p {
+      font-family: 'Alfa Slab One', cursive;
+      color: #212529; }
+    body .formulario {
+      padding-left: 10px; }
+    body .formulario input[type='text'],
+    body .formulario textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border: 1px solid #999;
+      color: #999;
+      font-family: 'Alfa Slab One', cursive;
+      font-weight: 400;
+      outline: 0; }
+    body .formulario textarea {
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      min-height: 150px; }
+    body .formulario input[type='text']:focus,
+    body .formulario textarea:focus {
+      border: 1px solid #e36414; }
+    body .formulario Button {
+      padding: 12px 13px;
+      border: trasparent;
+      background: #e36414;
+      color: #fff;
+      cursor: pointer;
+      float: right; } }
 
 @media (max-width: 600px) {
   body {
-    background-image: url("../img/back.jpg"); }
-    body .imgBannerPromociones {
-      background-image: url("../img/promocionesBanner.jpg");
-      background-position: center center;
-      background-repeat: contain;
-      width: 100%;
-      height: 300px;
-      padding: 10px 0 10 0;
-      display: flex; }
-      body .imgBannerPromociones .tituloBanner {
-        width: 100%;
-        height: auto;
+    background-image: url("../img/back.jpg");
+    /* Estilos info */
+    /* Estilos formulario */ }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 20px;
-        margin: 20px; }
-        body .imgBannerPromociones .tituloBanner .letraPromocion {
-          text-align: center;
-          font-size: 50px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive;
-          color: white;
-          -webkit-text-stroke: 2px black; }
-    body .promocionesHelado {
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerServicios {
+      background-image: url("../img/serviciosBanner.jpg");
+      background-size: center center;
+      background-attachment: center;
       width: 100%;
-      height: auto;
+      height: 200px;
+      padding: 10px 0 10 0; }
+    body .contenedorForm {
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 40px;
+      margin: 20px auto;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+    body .titleForm {
+      font-size: 30px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: left;
+      margin-bottom: 25px;
+      color: #212529; }
+    body .contenido {
       display: flex;
-      justify-content: center;
-      align-content: center;
+      width: 100%;
+      overflow: hidden;
       flex-wrap: wrap; }
-      body .promocionesHelado .cardPromocion {
-        width: auto;
-        height: auto;
-        margin: 20px;
-        padding: 20px; }
-        body .promocionesHelado .cardPromocion .promocionImg {
-          width: 400px;
-          height: 400px;
-          border-radius: 100%;
-          transition: all .3s ease-in-out; }
-        body .promocionesHelado .cardPromocion .promocionImg:hover {
-          transform: scale(0.9);
-          transform-origin: center center; }
-        body .promocionesHelado .cardPromocion .titlePromocion {
-          font-size: 20px;
-          line-height: 30px; }
-        body .promocionesHelado .cardPromocion .lineaPromocion {
-          width: 110px;
-          height: 3px;
-          font-weight: 50px;
-          background: #4e4e4e; }
-    body .pedidos {
+    body .contenido .info,
+    body .contenido .formulario {
+      width: 100%; }
+    body .info {
+      padding-left: 10px; }
+    body .info .col {
       width: 100%;
-      height: 300px;
       display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
+      margin-bottom: 15px;
       align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/fondoPedidos.jpg");
-      background-attachment: fixed;
-      background-position: center center;
-      background-repeat: contain; }
-      body .pedidos .textoPedidos {
-        width: 580px;
-        height: 157px;
-        padding: 5px;
-        margin: 5px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 48px;
-          letter-spacing: 7px;
-          font-weight: bold;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: auto;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 100px;
-          height: 100px; } }
+      flex-wrap: wrap; }
+    body .infor .col .icono {
+      color: #e36414;
+      margin-right: 10px; }
+    body .info .col p {
+      font-family: 'Alfa Slab One', cursive;
+      color: #212529; }
+    body .formulario {
+      padding-left: 10px; }
+    body .formulario input[type='text'],
+    body .formulario textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border: 1px solid #999;
+      color: #999;
+      font-family: 'Alfa Slab One', cursive;
+      font-weight: 400;
+      outline: 0; }
+    body .formulario textarea {
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      min-height: 150px; }
+    body .formulario input[type='text']:focus,
+    body .formulario textarea:focus {
+      border: 1px solid #e36414; }
+    body .formulario Button {
+      padding: 12px 13px;
+      border: trasparent;
+      background: #e36414;
+      color: #fff;
+      cursor: pointer;
+      float: right; } }
 
 @media (max-width: 480px) {
   body {
-    background-image: url("../img/back.jpg"); }
-    body .imgBannerPromociones {
-      background-image: url("../img/mobile/mobileBanner.jpg");
-      background-position: center center;
-      background-repeat: contain;
+    background-image: url("../img/back.jpg");
+    /* Estilos info */
+    /* Estilos formulario */ }
+    body header {
+      width: 100%; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerServicios {
+      background-image: url("../img/serviciosBanner.jpg");
+      background-size: center center;
+      background-attachment: center;
       width: 100%;
       height: 200px;
-      padding: 10px 0 10 0;
-      display: flex; }
-      body .imgBannerPromociones .tituloBanner {
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 20px;
-        margin: 20px; }
-        body .imgBannerPromociones .tituloBanner .letraPromocion {
-          text-align: center;
-          font-size: 35px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive;
-          color: white;
-          -webkit-text-stroke: 2px black; }
-    body .promocionesHelado {
-      width: 100%;
-      height: auto;
+      padding: 10px 0 10 0; }
+    body .contenedorForm {
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+    body .titleForm {
+      font-size: 30px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: left;
+      margin-bottom: 25px;
+      color: #212529; }
+    body .contenido {
       display: flex;
-      justify-content: center;
-      align-content: center;
+      width: 100%;
+      overflow: hidden;
       flex-wrap: wrap; }
-      body .promocionesHelado .cardPromocion {
-        width: auto;
-        height: auto;
-        margin: 20px;
-        padding: 20px; }
-        body .promocionesHelado .cardPromocion .promocionImg {
-          width: 350px;
-          height: 350px;
-          border-radius: 100%;
-          transition: all .3s ease-in-out; }
-        body .promocionesHelado .cardPromocion .promocionImg:hover {
-          transform: scale(0.9);
-          transform-origin: center center; }
-        body .promocionesHelado .cardPromocion .titlePromocion {
-          font-size: 20px;
-          line-height: 30px; }
-        body .promocionesHelado .cardPromocion .lineaPromocion {
-          width: 110px;
-          height: 3px;
-          font-weight: 50px;
-          background: #4e4e4e; }
-    body .pedidos {
+    body .contenido .info,
+    body .contenido .formulario {
+      width: 100%; }
+    body .info {
+      padding-left: 10px; }
+    body .info .col {
       width: 100%;
-      height: 300px;
       display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
+      margin-bottom: 15px;
       align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/fondoPedidos.jpg");
-      background-repeat: space;
-      background-position: center center;
-      background-repeat: contain; }
-      body .pedidos .textoPedidos {
-        width: 200px;
-        height: 100px;
-        padding: 5px;
-        margin: 5px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 27px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: auto;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 75px;
-          height: 75px; } }
+      flex-wrap: wrap; }
+    body .infor .col .icono {
+      color: #e36414;
+      margin-right: 10px; }
+    body .info .col p {
+      font-family: 'Alfa Slab One', cursive;
+      color: #212529; }
+    body .formulario {
+      padding-left: 10px; }
+    body .formulario input[type='text'],
+    body .formulario textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border: 1px solid #999;
+      color: #999;
+      font-family: 'Alfa Slab One', cursive;
+      font-weight: 400;
+      outline: 0; }
+    body .formulario textarea {
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      min-height: 150px; }
+    body .formulario input[type='text']:focus,
+    body .formulario textarea:focus {
+      border: 1px solid #e36414; }
+    body .formulario Button {
+      padding: 12px 13px;
+      border: trasparent;
+      background: #e36414;
+      color: #fff;
+      cursor: pointer;
+      float: right; } }
 
 @media (max-width: 320px) {
   body {
-    background-image: url("../img/back.jpg"); }
+    background-image: url("../img/back.jpg");
+    /* Estilos info */
+    /* Estilos formulario */ }
     body header {
-      width: 100%;
-      height: 91px; }
-    body .imgBannerPromociones {
-      background-image: url("../img/mobile/mobileBanner.jpg");
-      background-position: center center;
-      width: 100%;
-      height: 150px;
-      padding: 10px 0 10 0;
-      display: flex; }
-      body .imgBannerPromociones .tituloBanner {
-        width: 100%;
-        height: auto;
+      width: 100%; }
+      body header .contenedorLogo {
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 20px;
-        margin: 20px; }
-        body .imgBannerPromociones .tituloBanner .letraPromocion {
-          text-align: center;
-          font-size: 20px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive;
-          color: white;
-          -webkit-text-stroke: 2px black; }
-    body .promocionesHelado {
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerServicios {
+      opacity: 0;
+      background-image: url("../img/serviciosBanner.jpg");
+      background-size: center center;
+      background-attachment: center;
       width: 100%;
-      height: auto;
+      height: 0px;
+      padding: 10px 0 10 0; }
+    body .contenedorForm {
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
+    body .titleForm {
+      font-size: 30px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: left;
+      margin-bottom: 25px;
+      color: #212529; }
+    body .contenido {
       display: flex;
-      justify-content: center;
-      align-content: center;
+      width: 100%;
+      overflow: hidden;
       flex-wrap: wrap; }
-      body .promocionesHelado .cardPromocion {
-        width: auto;
-        height: auto;
-        margin: 20px;
-        padding: 20px; }
-        body .promocionesHelado .cardPromocion .promocionImg {
-          width: 250px;
-          height: 250px;
-          border-radius: 100%;
-          transition: all .3s ease-in-out; }
-        body .promocionesHelado .cardPromocion .promocionImg:hover {
-          transform: scale(0.9);
-          transform-origin: center center; }
-        body .promocionesHelado .cardPromocion .titlePromocion {
-          font-size: 20px;
-          line-height: 30px; }
-        body .promocionesHelado .cardPromocion .lineaPromocion {
-          width: 110px;
-          height: 3px;
-          font-weight: 50px;
-          background: #4e4e4e; }
-    body .pedidos {
+    body .contenido .info,
+    body .contenido .formulario {
+      width: 100%; }
+    body .info {
+      padding-left: 10px; }
+    body .info .col {
       width: 100%;
-      height: 280px;
       display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
+      margin-bottom: 15px;
       align-items: center;
-      margin: 50px 0 50px;
-      background-image: url("../img/mobile/fondoPedidos.jpg");
-      background-position: center center;
-      background-repeat: contain; }
-      body .pedidos .textoPedidos {
-        width: 200px;
-        height: 100px;
-        padding: 5px;
-        margin: 5px; }
-        body .pedidos .textoPedidos .trasparente {
-          color: transparent;
-          -webkit-text-stroke: 1px white; }
-        body .pedidos .textoPedidos .color {
-          color: white; }
-        body .pedidos .textoPedidos .letraPedidos {
-          text-align: center;
-          font-size: 27px;
-          letter-spacing: 7px;
-          font-family: 'Alfa Slab One', cursive; }
-      body .pedidos .contedorLogoPedidos {
-        width: 250px;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px; }
-        body .pedidos .contedorLogoPedidos .pedidoLogo {
-          border-radius: 20px;
-          width: 75px;
-          height: 75px; } }
+      flex-wrap: wrap; }
+    body .infor .col .icono {
+      color: #e36414;
+      margin-right: 10px; }
+    body .info .col p {
+      font-family: 'Alfa Slab One', cursive;
+      color: #212529; }
+    body .formulario {
+      padding-left: 10px; }
+    body .formulario input[type='text'],
+    body .formulario textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border: 1px solid #999;
+      color: #999;
+      font-family: 'Alfa Slab One', cursive;
+      font-weight: 400;
+      outline: 0; }
+    body .formulario textarea {
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 200px;
+      min-height: 150px; }
+    body .formulario input[type='text']:focus,
+    body .formulario textarea:focus {
+      border: 1px solid #e36414; }
+    body .formulario Button {
+      padding: 12px 13px;
+      border: trasparent;
+      background: #e36414;
+      color: #fff;
+      cursor: pointer;
+      float: right; } }

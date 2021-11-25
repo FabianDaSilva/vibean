@@ -3,9 +3,11 @@
 @import "sabores.scss";
 @import"promociones.scss";
 @import"nosotros.scss";
-@import"galeria.scss";
 @import"servicios.scss";
-@import"_indexMob.scss";
-@import"_saboresMob.scss";
-@import"_promocionesMob.scss";
+@import"_pedidos.scss";
+@import"./mobile/indexMob";
+@import"./mobile/nosotrosMob";
+@import"./mobile/promocionesMob";
+@import"./mobile/saboresMob";
+@import"./mobile/serviciosMob";
 
