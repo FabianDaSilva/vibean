@@ -165,12 +165,13 @@
         }
     
         .imgBannerNosotros {
+            opacity: 0;
             background-image: url("../img/bannerHelado.jpg");
             background-size: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             width: 100%;
-            height: 100px;
+            height: 0px;
             padding: 10px 0 10 0;
         }
     
@@ -239,12 +240,13 @@
         }
     
         .imgBannerNosotros {
+            opacity: 0;
             background-image: url("../img/bannerHelado.jpg");
             background-size: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             width: 100%;
-            height: 100px;
+            height: 0px;
             padding: 10px 0 10 0;
         }
     
@@ -313,12 +315,13 @@
         }
     
         .imgBannerNosotros {
+            opacity: 0;
             background-image: url("../img/bannerHelado.jpg");
             background-size: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             width: 100%;
-            height: 100px;
+            height: 0px;
             padding: 10px 0 10 0;
         }
     
@@ -389,11 +392,13 @@
         }
     
         .imgBannerNosotros {
-            background-image: url("../img/mobile/mobileBanner.jpg");
-            background-size: center center;            
+            opacity: 0;
+            background-image: url("../img/bannerHelado.jpg");
+            background-size: center center;
+            background-repeat: no-repeat;
             background-attachment: fixed;
             width: 100%;
-            height: 100px;
+            height: 0px;
             padding: 10px 0 10 0;
         }
     
