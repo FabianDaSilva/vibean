@@ -1510,7 +1510,7 @@ body {
       transform: scale(0.9);
       transform-origin: center center; } }
 
-@media (max-width: 480px) {
+@media (min-width: 576px) {
   body {
     background-image: url("../img/back.jpg"); }
     body header {
