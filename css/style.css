@@ -1211,6 +1211,105 @@ body {
           margin-left: 70px;
           background: #4e4e4e; } }
 
+@media (max-width: 360px) {
+  header {
+    width: auto;
+    height: 90px; }
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    body .historiaHome {
+      width: 250px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../img/fondo.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0; }
+      body .historiaHome .izq {
+        width: 250px;
+        height: 430px;
+        margin: 0px; }
+        body .historiaHome .izq .imgHome {
+          width: 150px;
+          height: auto; }
+        body .historiaHome .izq .tituloSpan {
+          font-size: 20px;
+          letter-spacing: 2px; }
+        body .historiaHome .izq .parrafoHistoria {
+          width: 250px;
+          height: 200px;
+          text-align: center;
+          font-size: 13px;
+          letter-spacing: 1px;
+          margin: 8px 10px 0 10px; }
+      body .historiaHome .der {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation-name: foto02;
+        animation-duration: 6s;
+        animation-iteration-count: unset; }
+        body .historiaHome .der .foto03 {
+          width: 0px;
+          height: auto; }
+        body .historiaHome .der .foto02 {
+          width: 0px;
+          height: auto; }
+        body .historiaHome .der .foto01 {
+          width: 0px;
+          height: auto; }
+    body .sabores {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      margin: 50px 0;
+      width: 250px;
+      height: auto; }
+      body .sabores .contenedorSabores {
+        width: auto;
+        height: 250px; }
+        body .sabores .contenedorSabores .imgSabores {
+          width: 200px;
+          height: 200px;
+          border-radius: 200px; }
+    body .locales {
+      width: 250px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: row; }
+      body .locales .cardLocal {
+        padding: 5px 0;
+        width: 315px;
+        margin-bottom: 25px;
+        text-align: center;
+        display: inline-block;
+        margin: 7px 12px;
+        border-radius: 10 px;
+        box-shadow: 2px 1px 10px #ddd;
+        background: #fff; }
+        body .locales .cardLocal .localImg {
+          width: 200px;
+          height: 300px; }
+        body .locales .cardLocal .linea {
+          width: 155px;
+          height: 3px;
+          margin-left: 34px;
+          background: #4e4e4e; } }
+
 @media (max-width: 329px) {
   header {
     width: auto;
@@ -1553,6 +1652,56 @@ body {
         height: 650px;
         padding: 40px;
         margin: 20px; }
+    body #imgGaleriaN {
+      transition: all .3s ease-in-out; }
+    body #imgGaleriaN:hover {
+      transition: all .3s ease-in-out;
+      transform: scale(0.9);
+      transform-origin: center center; } }
+
+@media (max-width: 360px) {
+  body {
+    background-image: url("../img/back.jpg"); }
+    body header {
+      width: 100%;
+      height: 90px; }
+      body header .contenedorLogo {
+        display: flex;
+        justify-content: center; }
+        body header .contenedorLogo .logoNav {
+          width: auto;
+          height: 150px; }
+    body .imgBannerNosotros {
+      opacity: 0;
+      background-image: url("../img/bannerHelado.jpg");
+      background-size: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 100%;
+      height: 0px;
+      padding: 10px 0 10 0; }
+    body .cardNosotros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      align-items: flex-end;
+      padding: 10px; }
+      body .cardNosotros .cardNosotrosImg {
+        width: auto;
+        height: auto; }
+        body .cardNosotros .cardNosotrosImg .imgNosotros {
+          width: 280px;
+          height: auto;
+          border-radius: 100%; }
+      body .cardNosotros .contenedorParrafo {
+        width: 574px;
+        height: 650px;
+        padding: 40px;
+        margin: 20px;
+        font-size: 13px; }
     body #imgGaleriaN {
       transition: all .3s ease-in-out; }
     body #imgGaleriaN:hover {

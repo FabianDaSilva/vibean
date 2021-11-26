@@ -703,6 +703,147 @@
 
     }
 }
+@media (max-width: 360px) {
+
+    header {
+        width: auto;
+        height: 90px;
+        
+    }
+    body {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+
+        .historiaHome {
+            width: 250px;
+            height: auto;
+            display: flex;
+            align-items: center;            
+            justify-content: center;
+            background-image: url(../img/fondo.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+
+            .izq {
+                width: 250px;
+                height: 430px;
+                margin: 0px;
+
+                .imgHome {
+                    width: 150px;
+                    height: auto;
+
+                }
+
+                .tituloSpan {
+                    font-size: 20px;
+                    letter-spacing: 2px;                    
+                }
+
+                .parrafoHistoria {
+                    width: 250px;
+                    height: 200px;
+                    text-align: center;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    margin: 8px 10px 0 10px;
+                }
+            }
+
+            .der {
+                opacity: 0;
+                width:0px;
+                height: 0px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                animation-name: foto02;
+                animation-duration: 6s;
+                animation-iteration-count: unset;
+
+                .foto03 {
+                    width: 0px;
+                    height: auto;
+                   
+                }
+
+                .foto02 {
+                    width: 0px;
+                    height: auto;
+                }
+
+                .foto01 {
+                    width: 0px;
+                    height: auto;
+                }
+            }
+        }
+
+        .sabores {
+            display: flex;
+            justify-content: center;
+            flex-direction:column;
+            align-content: center;
+            flex-wrap: wrap;
+            margin: 50px 0;
+            width: 250px;
+            height: auto;
+    
+            .contenedorSabores {
+                width: auto;
+                height: 250px;
+    
+                .imgSabores {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 200px;
+                }
+            }
+    
+        }
+      
+        .locales {
+            width: 250px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+
+            .cardLocal {
+                padding: 5px 0;
+                width: 315px;
+                margin-bottom: 25px;
+                text-align: center;
+                display: inline-block;
+                margin: 7px 12px;
+                border-radius: 10 px;
+                box-shadow: 2px 1px 10px #ddd;
+                background: #fff;
+
+                .localImg {
+                    width: 200px;
+                    height: 300px;
+                }
+
+                .linea {
+                    width: 155px;
+                    height: 3px;
+                    margin-left: 34px;
+                    background: #4e4e4e;
+                }
+            }
+        }
+
+    
+
+    }
+}
 @media (max-width: 329px) {
 
     header {
