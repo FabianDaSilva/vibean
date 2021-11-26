@@ -1110,7 +1110,7 @@ body {
         margin-left: 70px;
         background: #4e4e4e; } }
 
-@media (max-width: 480px) {
+@media (min-width: 576px) {
   header {
     width: auto;
     height: 91px; }
@@ -1792,7 +1792,7 @@ body {
           font-weight: 50px;
           background: #4e4e4e; } }
 
-@media (max-width: 480px) {
+@media (min-width: 576px) {
   body {
     background-image: url("../img/back.jpg"); }
     body .imgBannerPromociones {
@@ -2446,11 +2446,12 @@ body {
           width: auto;
           height: 150px; }
     body .imgBannerServicios {
+      opacity: 0;
       background-image: url("../img/serviciosBanner.jpg");
       background-size: center center;
       background-attachment: center;
       width: 100%;
-      height: 200px;
+      height: 0px;
       padding: 10px 0 10 0; }
     body .contenedorForm {
       width: 90%;
@@ -2598,7 +2599,7 @@ body {
       cursor: pointer;
       float: right; } }
 
-@media (max-width: 480px) {
+@media (min-width: 576px) {
   body {
     background-image: url("../img/back.jpg");
     /* Estilos info */
@@ -2612,11 +2613,12 @@ body {
           width: auto;
           height: 150px; }
     body .imgBannerServicios {
+      opacity: 0;
       background-image: url("../img/serviciosBanner.jpg");
       background-size: center center;
       background-attachment: center;
       width: 100%;
-      height: 200px;
+      height: 0px;
       padding: 10px 0 10 0; }
     body .contenedorForm {
       width: 90%;
