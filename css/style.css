@@ -1015,7 +1015,7 @@ body {
         margin-left: 70px;
         background: #4e4e4e; } }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
   header {
     width: auto;
     height: 91px; }
@@ -1460,7 +1460,7 @@ body {
       transform: scale(0.9);
       transform-origin: center center; } }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
   body {
     background-image: url("../img/back.jpg"); }
     body header {
@@ -1734,7 +1734,7 @@ body {
           font-weight: 50px;
           background: #4e4e4e; } }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
   body {
     background-image: url("../img/back.jpg"); }
     body .imgBannerPromociones {
@@ -1982,7 +1982,7 @@ body {
           padding: 10px;
           margin: 10px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   body header {
     width: 100%; }
     body header .contenedorLogo {
@@ -2053,7 +2053,7 @@ body {
           padding: 10px;
           margin: 10px; } }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
   body header {
     width: 100%; }
     body header .contenedorLogo {
@@ -2516,7 +2516,7 @@ body {
       cursor: pointer;
       float: right; } }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
   body {
     background-image: url("../img/back.jpg");
     /* Estilos info */
